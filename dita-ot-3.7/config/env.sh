@@ -1,8 +1,8 @@
 #!/bin/sh
+CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.pdf2/lib/fo.jar"
 CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.eclipsehelp/lib/eclipsehelp.jar"
 CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.htmlhelp/lib/htmlhelp.jar"
 CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.index/lib/index.jar"
-CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.pdf2/lib/fo.jar"
 CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.pdf2.axf/lib/axf.jar"
 CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.pdf2.fop/lib/batik-all-1.14.jar"
 CLASSPATH="$CLASSPATH:$DITA_HOME/plugins/org.dita.pdf2.fop/lib/fontbox-2.0.24.jar"

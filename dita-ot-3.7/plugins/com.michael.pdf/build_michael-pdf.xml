@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dita2michael-pdf">
+    <target name="dita2michael-pdf.init">
+    </target> 
+    <target name="dita2michael-pdf" depends="dita2michael-pdf.init, dita2pdf2"/>
+</project>
