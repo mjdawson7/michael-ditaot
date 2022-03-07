@@ -1,7 +1,7 @@
+set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.pdf2\lib\fo.jar"
 set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.eclipsehelp\lib\eclipsehelp.jar"
 set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.htmlhelp\lib\htmlhelp.jar"
 set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.index\lib\index.jar"
-set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.pdf2\lib\fo.jar"
 set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.pdf2.axf\lib\axf.jar"
 set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.pdf2.fop\lib\batik-all-1.14.jar"
 set "CLASSPATH=%CLASSPATH%;%DITA_HOME%\plugins\org.dita.pdf2.fop\lib\fontbox-2.0.24.jar"
