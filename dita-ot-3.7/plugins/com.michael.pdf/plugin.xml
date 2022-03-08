@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This is the Test PDF output for Publishing class -->
 <plugin id="com.michael.pdf">
   <require plugin="org.dita.pdf2"/>
   <transtype name="michael-pdf" extends="pdf2" desc="Michael PDF"/>
