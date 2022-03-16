@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\DITA OT git repo\michael-ditaot\dita-demo-content-collection-master\Thunderbird\temp\michael-pdf?><?workdir-uri file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/temp/michael-pdf/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="conceptId" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="concept:1;3:25" specializations="@props/deliveryTarget">
+ <title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="title:1;4:9"><term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:2;40:66">Thunderbird</term>
+  <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:1;30:63">StormCluster</term> features and
+  benefits</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="shortdesc:1;7:13"><term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:1;30:63">StormCluster</term> components work
+  together to give you the advanced cluster management and reporting capabilities that you need
+  within a large computing environment.</shortdesc>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="conbody:1;10:11">
+  <section id="section_mtx_smc_rr" class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="section:1;11:36">
+   <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:1;12:7">The <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:2;40:66">Thunderbird</term>
+    <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:1;30:63">StormCluster</term> computing management
+    solution combines powerful cluster management services with a simple-to-use, intuitive <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:5;66:62">MobileView</term> front-end application. The
+    combination places control of the full resources of your computing infrastructure into the hands
+    of your team members and it does so in a way the establishes, and sustains, the highest levels
+    of security. <fig class="- topic/fig " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="fig:1;18:23">
+     <image id="image_zf4_pnc_rr" placement="inline" class="- topic/image " href="c2886acd82c421800935c93a0d91c541c395f928.jpg" xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_image_warehouse.dita" xtrc="image:4;54:92"/>
+    </fig></p>
+  </section>  
+  <section id="section_p1h_jcz_qr" class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="section:2;22:36">
+   <title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="title:2;23:11">Key <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:1;30:63">StormCluster</term> benefits</title>
+   <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:2;24:7">
+    <ul id="ul_ewm_kmj_ae" class="- topic/ul " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="ul:1;25:28">
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:1;26:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:3;27:10">Maximum flexibility</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:2;29:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:4;30:10">Designed for extensibility</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:3;32:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:5;33:10">Ease of management</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:4;35:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:6;36:10">Extreme scalability</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:5;38:10">Intuitive reports and data visualizations</li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:6;39:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:7;40:10">Industry-leading support</p>
+     </li>
+    </ul>
+   </p>
+  </section>
+  <section id="section_tjt_jcz_qr" class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="section:3;45:36">
+   <title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="title:3;46:11">Key <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:1;30:63">StormCluster</term> features</title>
+   <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:8;47:7">
+    <ul id="ul_qub_qmj_ae" class="- topic/ul " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="ul:2;48:28">
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:7;49:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:9;50:10">Easy to use and manage for onsite administrators</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:8;52:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:10;53:10">High performing, scalable architecture</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:9;55:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:11;56:10">Comprehensive, intelligent scheduling policies</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:10;58:10">Complete customization flexibility for integrators</li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:11;59:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:12;60:10">Heterogeneous platform support</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:12;62:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:13;63:10">Continuous live data reporting services</p>
+     </li>
+     <li class="- topic/li " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="li:13;65:10">
+      <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:14;66:10">Robust security services</p>
+     </li>
+    </ul>
+   </p>
+  </section>
+  <section id="section_glb_kcz_qr" class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="section:4;71:36">
+   <title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="title:4;72:11">Component architecture delivers maximum scalability and flexibility</title>
+   <p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/c_architecture_combined.dita" xtrc="p:15;73:7"><term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:1;30:63">StormCluster</term> calls upon the <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:3;50:66">ClusterView</term>, <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:7;75:67">ClusterAnalyzer</term>, <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:6;71:65">ClusterBalance</term> and <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:4;58:69">ClusterControl</term> components become a
+    powerful workload manager for demanding, distributed high-performance computing environments.
+    Not only is a complete set of workload management capabilities available, but the reporting
+    benefits of <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:4;58:69">ClusterControl</term>, <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:3;50:66">ClusterView</term> and <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:7;75:67">ClusterAnalyzer</term> work together to reduce cycle
+    times and maximize productivity in mission critical environments. Equipped with <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:5;66:62">MobileView</term> mobile interface, your system
+    administration team and designated system users can collaborate to coordinate their business
+    priorities so that the overall effect is improved even more.</p>
+  </section>
+ </conbody>
+</concept>

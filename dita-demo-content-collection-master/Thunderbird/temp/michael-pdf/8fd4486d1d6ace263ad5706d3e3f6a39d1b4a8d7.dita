@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\DITA OT git repo\michael-ditaot\dita-demo-content-collection-master\Thunderbird\temp\michael-pdf?><?workdir-uri file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/temp/michael-pdf/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Composite//EN?><?doctype-system ditabase.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="mobileview_FAQ" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="topic:1;4:30" specializations="@props/deliveryTarget"> 
+	 <title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="title:1;5:10">Frequently Asked Questions</title> 
+  	<shortdesc class="- topic/shortdesc " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="shortdesc:1;6:15">Answers to your frequently asked questions about <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:5;66:62">MobileView</term>. 
+	 </shortdesc> 
+	 <body class="- topic/body " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="body:1;8:9"> 
+	 	<section class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="section:1;9:13"> 
+	 		<title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="title:2;10:12">How do I change my password?</title> 
+	 		<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="p:1;11:8">You can change your password after you log on to <term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:5;66:62">MobileView</term>.</p>
+	 		<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="p:2;12:8">Select the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:1;12:30">Account</uicontrol> button in the top right hand corner, then select the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:2;12:114">Settings</uicontrol> option. In the Settings tab, click the 
+	 			<uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:3;13:17">Change Password</uicontrol> button. In the Are-you-sure-you-want-to-change-your-password? dialog
+	 			box, enter your old password, enter your new password twice, and click <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:4;14:88">OK</uicontrol>.</p>
+	 	</section>
+
+	 	<section class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="section:2;17:13"> 
+	 		<title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="title:3;18:12">Can I create a custom data view?</title> 
+	 		<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="p:3;19:8">Yes. You can create custom data 
+	 			views that provide analytics specific to the needs of your project in the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:5;20:91">Customize Views</uicontrol> page. 
+	 			You can analyze the tasks, targets, and clusters associated with your project.</p> 
+	 	</section>
+	 	
+	 	<section class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="section:3;24:13"> 
+	 		<title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="title:4;25:12">How do I generate a custom query?</title> 
+	 		<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="p:4;26:8">You can generate customized queries on the tasks, clusters, and targets in your 
+	 			<term class="- topic/term " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_productname_variables.dita" xtrc="term:5;66:62">MobileView</term> system for investigation or 
+	 			maintenance purposes.</p>
+	 		<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="p:5;29:8">Within the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:6;29:30">Customize Views</uicontrol> tab, use the filters in the
+					<uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:7;30:17">Query Pane</uicontrol> to set up your query. Click on a filter
+				heading to turn it on or off and click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:8;31:59">Generate</uicontrol> button to
+				run your data analysis.</p>
+	 	</section>
+		
+				
+		<section class="- topic/section " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="section:4;36:12">
+			<title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="title:5;37:11">How do I diagnose an issue with cluster activity?</title>
+			<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="p:6;38:7">If the data views in the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:9;38:43">Troubleshooting</uicontrol> sub-tab have either the error
+				icon or the warning icon, you will want to get more details regarding the issue.
+				Initiate the applicable diagnostics sequence of tests.</p>
+			<table id="table_odf_gf4_mr" class="- topic/table " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="table:1;15:33">
+				<title class="- topic/title " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="title:2;16:12">System health indicators</title>
+				<tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="tgroup:1;17:22">
+					<colspec colnum="1" colname="col1" colwidth="1.06*" class="- topic/colspec " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="colspec:1;18:59"/>
+					<colspec colnum="2" colname="col2" colwidth="1.0*" class="- topic/colspec " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="colspec:2;19:58"/>
+					<colspec colnum="3" colname="col3" colwidth="1.0*" class="- topic/colspec " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="colspec:3;20:58"/>
+					<thead class="- topic/thead " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="thead:1;21:13">
+						<row class="- topic/row " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="row:1;22:12">
+							<entry colname="col1" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:1;23:30" dita-ot:x="1" dita-ot:y="1">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:1;24:12">Indicator</p>
+							</entry>
+							<entry colname="col2" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:2;26:30" dita-ot:x="2" dita-ot:y="1">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:2;27:12">Status</p>
+							</entry>
+							<entry colname="col3" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:3;29:30" dita-ot:x="3" dita-ot:y="1">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:3;30:12">Description</p>
+							</entry>
+						</row>
+					</thead>
+					<tbody class="- topic/tbody " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="tbody:1;34:13">
+						<row class="- topic/row " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="row:2;35:12">
+							<entry colname="col1" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:4;36:30" dita-ot:x="1" dita-ot:y="2">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:4;37:12"><image id="image_tbr_qms_mr" placement="inline" class="- topic/image " href="c770ffa99302cb9cdc315752cc02c3f86292cf83.png" xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_image_warehouse.dita" xtrc="image:3;40:64"/></p>
+							</entry>
+							<entry colname="col2" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:5;40:30" dita-ot:x="2" dita-ot:y="2">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:5;41:12">Healthy</p>
+							</entry>
+							<entry colname="col3" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:6;43:30" dita-ot:x="3" dita-ot:y="2">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:6;44:12">Indicates regular and sustained cluster performance.</p>
+							</entry>
+						</row>
+						<row class="- topic/row " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="row:3;47:12">
+							<entry colname="col1" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:7;48:30" dita-ot:x="1" dita-ot:y="3">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:7;49:12"><image id="image_t3f_rms_mr" placement="inline" class="- topic/image " href="adf4827a312ed0009b176b3326368e7ec5442815.png" xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_image_warehouse.dita" xtrc="image:2;35:39"/></p>
+							</entry>
+							<entry colname="col2" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:8;52:30" dita-ot:x="2" dita-ot:y="3">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:8;53:12">Warning</p>
+							</entry>
+							<entry colname="col3" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:9;55:30" dita-ot:x="3" dita-ot:y="3">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:9;56:12">Indicates that the cluster is not performing optimally or cannot
+									address projected workloads.</p>
+							</entry>
+						</row>
+						<row class="- topic/row " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="row:4;60:12">
+							<entry colname="col1" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:10;61:30" dita-ot:x="1" dita-ot:y="4">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:10;62:12"><image id="image_l2t_rms_mr" placement="inline" class="- topic/image " href="71cba69b70a5b6e3d0010978374b229a5749a123.png" xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_image_warehouse.dita" xtrc="image:1;30:39"/></p>
+							</entry>
+							<entry colname="col2" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:11;65:30" dita-ot:x="2" dita-ot:y="4">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:11;66:12">Error</p>
+							</entry>
+							<entry colname="col3" class="- topic/entry " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="entry:12;68:30" dita-ot:x="3" dita-ot:y="4">
+								<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/r_mv_quickref_health_indicators.dita" xtrc="p:12;69:12">Indicates that the cluster has stopped processing a task.</p>
+							</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+			
+			<p class="- topic/p " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="p:7;53:7">Click on the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:10;53:31">Data View</uicontrol> widget, and then select the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/C:/DITA%20OT%20git%20repo/michael-ditaot/dita-demo-content-collection-master/Thunderbird/topics/FAQ.dita" xtrc="uicontrol:11;53:92">Diagnose</uicontrol> option. The system will return a detailed account of the issue and recommended action for amending the problem.</p>
+		</section> 
+	 </body> 
+  </topic>
