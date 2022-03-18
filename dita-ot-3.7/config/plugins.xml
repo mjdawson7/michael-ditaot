@@ -205,7 +205,7 @@
   <feature extension="dita.specialization.catalog.relative" file="catalog.xml"/>
 </plugin><plugin id="com.michael.html5" version="0.0.0" xml:base="../plugins/com.michael.html5/plugin.xml">
   <transtype desc="Michael HTML5" extends="html5" name="michael-html5"/>
-  <feature extension="ant.import" file="build_dita2michael-html5.xml"/>
+  <feature extension="ant.import" file="build_michael-html5.xml"/>
 </plugin><plugin id="org.oasis-open.xdita.v0_2_2" version="0.2.2" xml:base="../plugins/org.oasis-open.xdita.v0_2_2/plugin.xml">
 <title>Lightweight DITA</title>
 
@@ -594,6 +594,9 @@ public IDs and system IDs for any DTD modules included in this plugin. -->
   <feature extension="ant.import" file="build.xml"/>
   <feature extension="dita.conductor.pdf2.formatter.check" value="ah"/>
   <template file="xsl/fo/topic2fo_shell_axf_template.xsl"/>
+</plugin><plugin id="com.mycorp.html5" version="0.0.0" xml:base="../plugins/com.mycorp.html5.html/plugin.xml">
+  <transtype desc="Mycorp HTML5" extends="html5" name="mycorp-html5"/>
+  <feature extension="ant.import" file="build_dita2mycorp-html5.xml"/>
 </plugin><plugin id="org.dita.normalize" version="0.0.0" xml:base="../plugins/org.dita.normalize/plugin.xml">
   <transtype desc="Normalized DITA" name="dita"/>
   <feature extension="dita.conductor.target.relative" file="conductor.xml"/>
