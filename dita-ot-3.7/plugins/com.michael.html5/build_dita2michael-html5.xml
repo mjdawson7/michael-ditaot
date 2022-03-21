@@ -22,7 +22,7 @@
   
   <!-- Tell the OT to copy resource files (such as images) to the output directory -->
   <target name="michael-copy" description="Copy files such as the logo">
-    <copy file="${args.cssroot}${file.separator}MyCorpLogo.svg" todir="${output.dir}${file.separator}resource"/>
+    <copy file="${args.cssroot}${file.separator}_delfi-logo-small-white.png" todir="${output.dir}${file.separator}resource"/>
   </target>
 
 </project>
