@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:dita="http://dita-ot.sourceforge.net" name="dita2mycorp-html5">
-
-  <target name="dita2mycorp-html5" depends="mycorp-html5.init, dita2html5"/>
-
-  <target name="mycorp-html5.init">
-  </target>
-
-</project>

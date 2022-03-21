@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin id="com.michael.pdf2">
+  <require plugin="org.dita.pdf2"/>
+  <transtype name="michael-pdf2" extends="pdf2" desc="Michael PDF"/>
+  <feature extension="ant.import" file="build_dita2michael-pdf2.xml"/>
+</plugin>
