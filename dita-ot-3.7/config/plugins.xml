@@ -210,6 +210,7 @@
 </plugin><plugin id="com.michael.html5" version="0.0.0" xml:base="../plugins/com.michael.html5/plugin.xml">
   <transtype desc="Michael HTML5" extends="html5" name="michael-html5"/>
   <feature extension="ant.import" file="build_dita2michael-html5.xml"/>
+  <feature extension="dita.xsl.html5" file="xsl/dita2michael-html5.xsl"/>
 </plugin><plugin id="org.oasis-open.xdita.v0_2_2" version="0.2.2" xml:base="../plugins/org.oasis-open.xdita.v0_2_2/plugin.xml">
 <title>Lightweight DITA</title>
 

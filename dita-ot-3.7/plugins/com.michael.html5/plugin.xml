@@ -3,4 +3,5 @@
 <plugin id="com.michael.html5">
   <transtype name="michael-html5" extends="html5" desc="Michael HTML5"/>
   <feature extension="ant.import" file="build_dita2michael-html5.xml"/>
+  <feature extension="dita.xsl.html5" file="xsl/dita2michael-html5.xsl"/>
 </plugin>
