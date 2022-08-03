@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Repos\michael-ditaot\dita-ot-3.7\temp\temp20220726124010836?><?workdir-uri file:/C:/Repos/michael-ditaot/dita-ot-3.7/temp/temp20220726124010836/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Composite//EN?><?doctype-system ../dtd/ditabase.dtd?><dita xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" domains="(topic task)                            (topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic troubleshooting++task) (topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)                            (topic task strictTaskbody-c)   " ditaarch:DITAArchVersion="1.3">
+<topic id="licensing" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="topic:1;6:23" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="title:1;7:8">Licensing and installation</title>
+<prolog class="- topic/prolog " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="prolog:1;8:9">
+<metadata class="- topic/metadata " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="metadata:1;9:11"><keywords class="- topic/keywords " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="keywords:1;9:21"><keyword class="- topic/keyword " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="keyword:1;9:30">Licensing</keyword><keyword class="- topic/keyword " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="keyword:2;9:58">Installation</keyword>
+</keywords>
+<othermeta content="Reservoir Engineering" name="domain" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="othermeta:1;11:59"/>
+<othermeta content="Intermediate" name="difficulty" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="othermeta:2;12:54"/>
+<othermeta content="Reference" name="pagetype" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="othermeta:3;13:49"/>
+<othermeta content="Schlumberger" name="author" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="othermeta:4;14:50"/></metadata>
+</prolog>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="body:1;16:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="p:1;17:4">The simulator checks at run time for valid licenses. This release
+requires date based versioned licenses.</p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="p:2;19:4">When using the Schlumberger License Server, please note that it
+must be v2020 or later. Licenses that may be required are:</p>
+<table class="- topic/table " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="table:1;21:8">
+<tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="tgroup:1;22:18"><colspec colname="col1" class="- topic/colspec " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="colspec:1;22:43" colnum="1"/><colspec colname="col2" class="- topic/colspec " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="colspec:2;22:68" colnum="2"/>
+<colspec colname="col3" class="- topic/colspec " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="colspec:3;23:26" colnum="3"/>
+<thead class="- topic/thead " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="thead:1;24:8">
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:1;25:6">
+<entry valign="top" class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:1;26:21" colname="col1" dita-ot:x="1" dita-ot:y="1">Product name</entry>
+<entry valign="top" class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:2;27:21" colname="col2" dita-ot:x="2" dita-ot:y="1">License feature</entry>
+<entry valign="top" class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:3;28:21" colname="col3" dita-ot:x="3" dita-ot:y="1">Functionality</entry>
+</row>
+</thead>
+<tbody class="- topic/tbody " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="tbody:1;31:8">
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:2;32:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:4;33:8" colname="col1" dita-ot:x="1" dita-ot:y="2">INTERSECT Core Simulator</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:5;34:8" colname="col2" dita-ot:x="2" dita-ot:y="2">ix_base</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:6;35:8" colname="col3" dita-ot:x="3" dita-ot:y="2">Core INTERSECT runtime license enabling simulation.  The core
+license also includes the ix_fm and ix_tools features.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:3;38:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:7;39:8" colname="col1" dita-ot:x="1" dita-ot:y="3"/>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:8;40:8" colname="col2" dita-ot:x="2" dita-ot:y="3">ix_fm</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:9;41:8" colname="col3" dita-ot:x="3" dita-ot:y="3">Enables INTERSECT Field Management.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:4;43:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:10;44:8" colname="col1" dita-ot:x="1" dita-ot:y="4"/>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:11;45:8" colname="col2" dita-ot:x="2" dita-ot:y="4">ix_tools</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:12;46:8" colname="col3" dita-ot:x="3" dita-ot:y="4">Enables the generation of INTERSECT input models from ECLIPSE
+keywords or from the Petrel Reservoir Engineering user interface.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:5;49:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:13;50:8" colname="col1" dita-ot:x="1" dita-ot:y="5">INTERSECT Enabler for ECLIPSE Simulator</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:14;51:8" colname="col2" dita-ot:x="2" dita-ot:y="5">sim_ul</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:15;52:8" colname="col3" dita-ot:x="3" dita-ot:y="5">Simulation upgrade license – required when using “–sim-ul”
+command line option. The license also includes ix_fm and ix_tools.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:6;55:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:16;56:8" colname="col1" dita-ot:x="1" dita-ot:y="6">ECLIPSE (E100/E300)</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:17;57:8" colname="col2" dita-ot:x="2" dita-ot:y="6">eclipse</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:18;58:8" colname="col3" dita-ot:x="3" dita-ot:y="6">ECLIPSE runtime license enabling simulation – required instead
+of ix_base when using “–sim-ul” command line option.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:7;61:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:19;62:8" colname="col1" dita-ot:x="1" dita-ot:y="7">INTERSECT Coupler</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:20;63:8" colname="col2" dita-ot:x="2" dita-ot:y="7">ix_coupler</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:21;64:8" colname="col3" dita-ot:x="3" dita-ot:y="7">Enables the coupling of INTERSECT Field Management to multiple
+reservoirs and network simulators such as GAP. For an
+integrated project with N1 INTERSECT reservoir models and N2 surface
+network models, the number of ix_coupler licenses required is (N1+N2–1).
+Coupling to Schlumberger applications is excluded from this calculation.<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="p:3;69:2">This license also enables coupling of INTERSECT to an external 3rd
+party controller.</p></entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:8;72:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:22;73:8" colname="col1" dita-ot:x="1" dita-ot:y="8">INTERSECT Multiple Realization</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:23;74:8" colname="col2" dita-ot:x="2" dita-ot:y="8">ix_mr</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:24;75:8" colname="col3" dita-ot:x="3" dita-ot:y="8">Enables INTERSECT to simultaneously run multiple similar realizations
+of the same model for a lower license cost. <p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="p:4;76:48">ix_mr licensed models
+are produced by Petrel, which signs them to prevent further modification
+of the model.  </p><p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="p:5;78:23">For each running model sharing the same unique
+identifier one ix_mr license is required, but all models will share
+a single ix_fm, ix_base, thermal and/ or ix_coupler license. ix_ucparallel
+licenses are not shared across the models.</p></entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:9;83:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:25;84:8" colname="col1" dita-ot:x="1" dita-ot:y="9">Combined Simulator Thermal</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:26;85:8" colname="col2" dita-ot:x="2" dita-ot:y="9">sim_thermal</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:27;86:8" colname="col3" dita-ot:x="3" dita-ot:y="9">Simulator license enabling Thermal simulations.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:10;88:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:28;89:8" colname="col1" dita-ot:x="1" dita-ot:y="10">Combined Simulator Compositional</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:29;90:8" colname="col2" dita-ot:x="2" dita-ot:y="10">sim_compositional</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:30;91:8" colname="col3" dita-ot:x="3" dita-ot:y="10">Simulator license enabling Compositional fluid simulations.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:11;93:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:31;94:8" colname="col1" dita-ot:x="1" dita-ot:y="11">INTERSECT Thermal</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:32;95:8" colname="col2" dita-ot:x="2" dita-ot:y="11">ix_hot</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:33;96:8" colname="col3" dita-ot:x="3" dita-ot:y="11">INTERSECT license enabling Thermal simulations – alternative to sim_thermal license.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:12;98:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:34;99:8" colname="col1" dita-ot:x="1" dita-ot:y="12">INTERSECT Compositional</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:35;100:8" colname="col2" dita-ot:x="2" dita-ot:y="12">ix_compositional</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:36;101:8" colname="col3" dita-ot:x="3" dita-ot:y="12">INTERSECT license enabling Compositional fluid simulations – alternative to sim_compositional license.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:13;103:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:37;104:8" colname="col1" dita-ot:x="1" dita-ot:y="13">INTERSECT Cluster Parallel</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:38;105:8" colname="col2" dita-ot:x="2" dita-ot:y="13">ix_cluster_parallel</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:39;106:8" colname="col3" dita-ot:x="3" dita-ot:y="13">Enables INTERSECT parallel computing option.  An
+ix_cluster_parallel license is required for any model running more ways parallel than
+the limit of 48. This number is calculated by multiplying the number of processes 
+by the number of threads per process in hybrid parallel runs.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:14;111:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:40;112:8" colname="col1" dita-ot:x="1" dita-ot:y="14">INTERSECT Unlimited Cluster Parallel</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:41;113:8" colname="col2" dita-ot:x="2" dita-ot:y="14">ix_ucparallel</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:42;114:8" colname="col3" dita-ot:x="3" dita-ot:y="14">Enables INTERSECT unlimited parallel computing option.  An
+ix_ucparallel license is required for any model running more ways parallel than
+the limit of 128. This number is calculated by multiplying the number of processes 
+by the number of threads per process in hybrid parallel runs.</entry>
+</row>
+<row class="- topic/row " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="row:15;119:6">
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:43;120:8" colname="col1" dita-ot:x="1" dita-ot:y="15">INTERSECT Multiscale</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:44;121:8" colname="col2" dita-ot:x="2" dita-ot:y="15">ix_multiscale</entry>
+<entry class="- topic/entry " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/licensing.xml" xtrc="entry:45;122:8" colname="col3" dita-ot:x="3" dita-ot:y="15">Enables INTERSECT Multiscale Sequential Fully Implicit (SFI)
+method.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</body>
+</topic>
+</dita>

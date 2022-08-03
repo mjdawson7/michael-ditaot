@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Repos\michael-ditaot\dita-ot-3.7\temp\temp20220726131356259?><?workdir-uri file:/C:/Repos/michael-ditaot/dita-ot-3.7/temp/temp20220726131356259/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Composite//EN?><?doctype-system ../dtd/ditabase.dtd?><dita xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" domains="(topic task)                            (topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic troubleshooting++task) (topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)                            (topic task strictTaskbody-c)   " ditaarch:DITAArchVersion="1.3">
+<topic id="thirdparty" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="topic:1;6:24" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="title:1;7:8">Third party software and hardware </title>
+<prolog class="- topic/prolog " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="prolog:1;8:9">
+<metadata class="- topic/metadata " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="metadata:1;9:11"><keywords class="- topic/keywords " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="keywords:1;9:21"><keyword class="- topic/keyword " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="keyword:1;9:30">Third party</keyword></keywords>
+<othermeta content="Reservoir Engineering" name="domain" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="othermeta:1;10:59"/>
+<othermeta content="Intermediate" name="difficulty" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="othermeta:2;11:54"/>
+<othermeta content="Reference" name="pagetype" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="othermeta:3;12:49"/>
+<othermeta content="Schlumberger" name="author" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="othermeta:4;13:50"/></metadata>
+</prolog>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="body:1;15:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="ul:1;16:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:1;17:5">Simulation Launcher requires .NET Framework 4.5 or later to function. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:2;18:5">If you are running serially without using the queuing system on
+the Microsoft HPC platform, you need to disable the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:1;19:61">AffinityOnWindows</codeph> configuration option. Refer to the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="cite:1;20:44">ECLRUN User Guide </cite>for instructions. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:3;22:5">You may encounter problems running INTERSECT with Platform MPI
+using a version of LSF earlier than 9.1. When this occurs, the simulation
+finishes as usual, however LSF behaves as if the simulation is still
+running and prevents other jobs from starting.  You can either run
+the Intel MPI version of INTERSECT (the default version), or upgrade
+LSF. You must use LSF 9.1 or later. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:4;28:5">When running on certain OS and NAS storage hardware configurations,
+INTERSECT can experience intermittent file system errors when attempting
+to clean very large directories of previous summary result data. 
+INTERSECT displays a warning message when this occurs and attempts
+to retry cleaning the directories. If it cannot clean out the files,
+the following error message is displayed. <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeblock:1;33:54">WARNING Filesystem error attempting to write summary report files. Retrying now. 
+Actual error is:  boost::filesystem::basic_directory_iterator increment: Too many levels of symbolic links: "file location"  
+ERROR Grid "" has already been written.  </codeblock><p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="p:1;35:57">The workaround
+is to manually clean out the summary report files from previous runs
+before launching the simulation.</p></li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:5;38:5"> INTERSECT supports several different job schedulers.  Each has
+its limitations and requirements.  Full documentation on Scheduler
+Integration can be found on the DVD in the 3rdParty directory.  <note class="- topic/note " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="note:1;41:2">Only Windows HPC, LSF and PBS support the scheduling of MR jobs.
+Running MR jobs with UGE or on a Windows Workstation with no additional
+scheduling, may not achieve the best utilization of resources.</note>However, please note that </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:6;45:5">On some machine setups, ECLRUN may have problems parsing the JOB
+ID when a submission has been made to UGE.  If this happens, the following
+modification to the ECLRUN script may help. <ol class="- topic/ol " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="ol:1;47:49">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:7;48:5">Find the line:  <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:2;48:29">return fullCmd, fullCmd, self.JobResponseScraper(result_pattern,
+1) </codeph></li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:8;50:5">Change it to: <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:3;50:27">return fullCmd, fullCmd, self.JobResponseScraper(result_pattern)</codeph></li>
+</ol></li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:9;53:5">Very basic Torque functionality is enabled in ECLRUN but it is
+not supported and is not particularly effective. For example, the
+scheduling of jobs based on licenses is not enabled. Torque 2.X or
+5.X has been found to be more stable than 4.X with ECLRUN.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:10;57:5">You must set the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:4;57:30">LD_LIBRARY_PATH</codeph> variable in
+ECLRUN when you are using the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:5;58:39">eclrun=c plmpi</codeph> command.
+If the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:6;59:16">LD_LIBRARY_PATH</codeph> variable is not set the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:7;60:2">eclrun=c plmpi</codeph> command does not work. You can set the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:8;61:2">LD_LIBRARY_PATH</codeph> variable to an empty value, for example <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:9;62:2">export LD_LIBRARY_PATH="</codeph>.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="li:11;63:5">If the disk system containing the simulation model is remote to
+the simulation processor(s),  and therefore has a limited transfer
+bandwidth, you may experience reduced simulation performance. This
+may be a result of simulation database logging. This logging can be
+disabled by using the command-line option <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/thirdparty.xml" xtrc="codeph:10;67:51">--no_msgdb=true</codeph>.</li>
+</ul>
+</body>
+</topic>
+</dita>

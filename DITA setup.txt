@@ -1,0 +1,5 @@
+Things to do to get DITA OT set up on new PC
+
+1. Install/download DITA OT
+2. Copy over bat files
+3. Add dita path to system variables - System settings > System Properties > Advanced tab > Environment Variables > System variables. Edit the Path variable, add C:\Repos\michael-ditaot\dita-ot-3.7\bin (or wherever it is) as a new line.

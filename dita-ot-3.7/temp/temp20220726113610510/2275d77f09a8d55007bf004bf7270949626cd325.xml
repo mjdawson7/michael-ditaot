@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Repos\michael-ditaot\dita-ot-3.7\temp\temp20220726113610510?><?workdir-uri file:/C:/Repos/michael-ditaot/dita-ot-3.7/temp/temp20220726113610510/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Composite//EN?><?doctype-system ../dtd/ditabase.dtd?><dita xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" domains="(topic task)                            (topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic troubleshooting++task) (topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)                            (topic task strictTaskbody-c)   " ditaarch:DITAArchVersion="1.3">
+<topic id="changes" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="topic:1;6:21" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="title:1;7:8">Behavioral changes</title>
+<prolog class="- topic/prolog " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="prolog:1;8:9">
+<metadata class="- topic/metadata " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="metadata:1;9:11"><keywords class="- topic/keywords " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="keywords:1;9:21"><keyword class="- topic/keyword " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="keyword:1;9:30">Behavioral changes</keyword></keywords>
+<othermeta content="Reservoir Engineering" name="domain" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="othermeta:1;10:59"/>
+<othermeta content="Intermediate" name="difficulty" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="othermeta:2;11:54"/>
+<othermeta content="Reference" name="pagetype" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="othermeta:3;12:49"/>
+<othermeta content="Schlumberger" name="author" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="othermeta:4;13:50"/></metadata>
+</prolog>
+<topic id="rn_simulation_changes" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="topic:2;15:35" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="title:2;16:8">Changes in simulation</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="body:1;17:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:1;18:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:1;18:7">Residual oil saturation</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:1;19:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:1;20:5">The way residual oil saturation (SOR) is handled (that is, removed
+from the fluid composition before, and restored after, some computations)
+has been made consistent in 2022.1. Previously, the amounts removed
+and restored could be different in cases where the current oil saturation
+had fallen below the SOR in a cell. This change prevents occasional
+unphysical behavior such as water saturation dropping below connate
+in models which use this SOR feature. If you wish to go back to the
+previous behavior you can specify <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:1;27:43">set_int_option(name="pre_2022.1_sor"
+value=1)</codeph> in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:2;28:34">OptionMgr</codeph> node. </li>
+</ul>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:2;30:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:2;30:7">Initialization</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:2;31:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:2;32:5">From 2022.1 any equilibration regions containing only gas and
+water phases initially will have their saturation and capillary pressure
+relationship modeled as a gas-oil-water system instead of a gas-water
+system. This resolves problems initializing 3 phase systems when oil-water
+and oil-gas capillary pressures are defined in regions containing
+no initial oil and the initial water saturation is user-defined. The
+change results in slightly different saturations above the gas-water
+contact, and therefore different initial fluid in place volumes. You
+can revert to the previous behavior by specifying <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:3;40:59">set_int_option(name=”pre_2022.1_gw_init”
+value=1)</codeph> in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:4;41:34">OptionMgr</codeph> node. </li>
+</ul>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:3;43:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:3;43:7">GPU linear solver</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:3;44:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:3;45:5">The coloring schemes for the GPU linear solver have been modified
+to improve performance. This modification should not change the results
+and is expected to give equivalent or better performance in all cases.
+If adverse changes are encountered, the previous  coloring scheme
+can be activated by specifying <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:5;49:40">set_int_option(name="pre_2022.1_multicolor_reorder"
+value=1)</codeph>) in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:6;50:35">OptionMgr</codeph> node. </li>
+</ul>
+</body>
+</topic>
+<topic id="rn_wm_changes" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="topic:3;54:27" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="title:3;55:8">Changes in well model</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="body:2;56:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:4;57:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:4;57:7">Grid independent wells</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:4;58:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:4;59:5">Grid independent wells' deviation data are handled within the
+same coordinate system as that of the coarse grid from 2022.1. Previously,
+well deviation data was shifted by coarse grid origin before well-to-cell
+connections were determined. The change is to remove this translation
+by grid origin, so that well deviations and the coarse grid are defined
+consistently. Consequently, discrepancies in simulation results may
+be observed in models whose coarse grid's origin is not trivial. If
+you wish to go back to the previous behavior you can specify <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:7;67:2">set_int_option(name="pre_2022_1_grid_independent_wells_deviation"
+value=1)</codeph> in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:8;68:34">OptionMgr</codeph> node. </li>
+</ul>
+</body>
+</topic>
+
+<topic id="rn_fm_changes" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="topic:4;76:27" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="title:4;77:8">Changes in field management</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="body:3;78:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:5;79:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:5;79:7">Wells under historical data control</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:5;80:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:5;81:5">From 2022.1, each <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:9;81:31">HistoricalDataControl</codeph> is only
+applied to the wells that are explicitly listed in its <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="i:1;82:59">Wells</i> field (or <b class="+ topic/ph hi-d/b " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="b:1;83:16">all</b> wells if that list is left as, or set to, an
+empty list). This was the documented behavior before this release
+but, in practice, the content of that field was ignored and the control
+was applied to all wells. To recover the previous behavior, you can
+set the <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="i:2;87:12">Wells</i> field to an empty list (that is, <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:10;87:63">Wells=[]</codeph>).</li>
+</ul>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:6;90:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:6;90:7">Format of CSV file referred to in CSVControl</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:6;91:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:6;92:5">From 2022.1, the file referred to in <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:11;92:50">CSVControl</codeph> nodes
+is read following the format described in RFC 4180 as used by Excel.
+Specifically, embedded quotes (") and backslashes (\) in quoted fields are 
+encoded as '""' and '\' instead of '\"' and '\\' previously.
+If you wish to go back to the previous behavior you can specify <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:12;97:2">set_int_option(name="pre_2022.1_csv_format"
+value=1)</codeph> in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:13;98:34">OptionMgr</codeph> node.
+</li>
+</ul>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:7;101:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:7;101:7">Wells IPR calculation frequency</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:7;102:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:7;103:5"> A bug was introduced in the 2021.2 release which meant that well
+inflow performance relationship (IPR) curves were not calculated as
+frequently as had been requested. This occasionally led to issues
+in coupled workflows where wells were shut unexpectedly. This has
+been fixed in the current release so that these IPR curves are now
+calculated at the frequency specified in the <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="i:3;108:49">RecalculateFullIPRsOnResolveNetwork</i> field of the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:14;109:24">CombinedNetworkBalanceAction</codeph> node.
+At the same time, the default value of that field has been changed
+from <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:15;111:14">NEVER</codeph> to <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:16;111:40">ON_CHOP_FAILURE</codeph> to
+improve stability. </li>
+</ul>
+</body>
+</topic>
+<topic id="rn_reporting_changes" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="topic:5;116:34" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="title:5;117:8">Changes in reporting</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="body:4;118:7">
+    <p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:8;119:8">This is some text to push the ul further.</p>
+    <p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:9;120:8">etc</p>
+    <p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:10;121:8">etc</p>
+    <p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:11;122:8">etc</p>
+    <p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:12;123:8">etc</p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:13;124:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:8;124:7">Solid 3D reporting</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:8;125:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:8;126:5">The label used for 3D reporting of <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:17;126:48">SOLID_RES_VOLUME_IN_PLACE</codeph> in Petrel has been changed from <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:18;127:43">RDIPR</codeph> to <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:19;128:2">SDPIR</codeph>.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:9;129:5">The label used for 3D reporting of <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:20;129:48">SOLID_VOLUME_FRACTION</codeph> in Petrel has been changed from <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:21;130:43">SOLDVF</codeph> to SVF.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:10;131:5">A new label <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:22;131:25">SOL_DEN</codeph> has been added for 3D reporting
+of <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:23;132:12">SOLID_RESERVOIR_DENSITY</codeph> in Petrel.</li>
+</ul>
+</body>
+</topic>
+<topic id="rn_migrator_changes" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="topic:6;136:33" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="title:6;137:8">Changes in the Migrator</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="body:5;138:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:14;139:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:9;139:7">Correct Temperature value when CO2SOL creates an extra PVT region</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:9;141:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:11;142:5">From 2022.1, when an <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:24;142:34">EOS</codeph> compositional fluid
+model is defined in the .DATA file, and an extra <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:25;143:58">PVTNUM</codeph> fluid model is created, the Migrator now ensures the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:26;144:64">RTEMP</codeph> values are assigned to the compositional fluid models used for the
+water properties in addition to those for the hydrocarbon properties.
+Hence, there are two compositional fluid models written to the .ixf
+for each "real" fluid model when migrated, with the temperature values
+for both (<codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:27;149:19">EOSNUM</codeph> and <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:28;149:47">PVTNUM</codeph>) models
+being set. Previously the water property models were assigned default
+temperature values (<codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:29;151:29">212 degF</codeph>). In practice, this
+temperature value is not used, however, if a user wishes to achieve
+the previous behavior, the temperature value in the .ixf file of the
+migrated deck will need to be modified and set to <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:30;154:59">212 degF</codeph>.</li>
+</ul>
+</body>
+</topic>
+<topic id="rn_multiscale_changes" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="topic:7;159:35" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="title:7;160:8">Changes in multiscale extension</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="body:6;161:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:15;162:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:10;162:7">Multiscale SFI solver default settings changes</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:10;163:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:12;164:5">Starting 2022.1, simulations where <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:31;164:48">TimeDiscretizationMethod</codeph> is set as 
+<codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:32;165:9">MULTISCALE_SFI</codeph> have tuned heuristics in setting up the AMG solver. Also, 
+improvements to the convergence criteria of nonlinear and linear pressure 
+solvers have been made, aiming to save unnecessary iterations. The 
+timestep, linear and sequential controls were adjusted for better 
+multiscale pressure solver performance.
+Though not recommended, previous behavior can be recovered by specifying in the 
+<codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="codeph:33;171:9">OptionMgr</codeph> node:
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:16;172:4">set_int_option(name=" mg_use_heuristics" value=0)</p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:17;173:4">set_int_option(name="ms-improve-pressure-linear-solver" value=0)</p> 
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:18;174:4">set_int_option(name="ms-pressure-use-new-convergence" value=0) </p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:19;175:4">And changing the following parameters:</p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:20;176:4">TimeStepSizingControls.TimeStepCutDecreaseFactor=0.125 </p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:21;177:4">SequentialControls.PostSmootherIters=1 </p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:22;178:4">LinearControls.LaggedRelativeNorm=TRUE</p>
+</li>
+</ul>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="p:23;181:4"><u class="+ topic/ph hi-d/u " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="u:11;181:7">Multiscale SFI solver validation updates</u></p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="ul:11;182:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/behavioralchanges.xml" xtrc="li:13;183:5">Starting 2022.1 the validation check for threshold pressure was changed: 
+if threshold pressure is set to zero, the run will be continued. Additionally, 
+check for region threshold pressure was activated in a same manner.
+</li>
+</ul>
+</body>
+</topic>
+</topic>
+</dita>
