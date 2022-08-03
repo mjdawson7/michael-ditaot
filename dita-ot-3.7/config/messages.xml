@@ -9,7 +9,7 @@ See the accompanying LICENSE file for applicable license.
   <!-- Start of Ant Messages -->
   <message id="DOTA001F" type="FATAL">
     <reason>"%1" is not a recognized transformation type.</reason>
-    <response>Supported transformation types are dita, eclipsehelp, html5, htmlhelp, markdown, markdown_gitbook, markdown_github, michael-html5, michael-pdf2, pdf, pdf2, xhtml.</response>
+    <response>Supported transformation types are custpdf, dita, eclipsehelp, html5, htmlhelp, markdown, markdown_gitbook, markdown_github, michael-html5, michael-pdf2, pdf, pdf2, slb-html5-rn, xhtml.</response>
   </message>
   
   <message id="DOTA002F" type="FATAL">
@@ -818,7 +818,7 @@ See the accompanying LICENSE file for applicable license.
   <!-- Add any messages defined by plugins. -->
   
   
-  <message xmlns:dita="http://dita-ot.sourceforge.net" id="DOTA066F" type="FATAL">
+  <message id="DOTA066F" type="FATAL">
     <reason>Cannot find the user specified XSLT stylesheet '%1'.</reason>
     <response/>
   </message>

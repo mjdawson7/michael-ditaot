@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dita="http://dita-ot.sourceforge.net" xmlns:if="ant:if" xmlns:unless="ant:unless" name="dita2slb-html5-rn"><!-- copied the root directly from the html5 plugin provided in DITA OT. Change the name to match your transtype e.g. dita2_____-->
+    <target name="dita2slb-html5-rn" depends="slb-rn-html5.init, dita2html5"/><!-- this matches the name of the project given above. depends on the out of the box plugin that this extends from. also depends on the parameters below, added here first because I want it to have priority over the OOTB parameters-->
+    <target name="slb-rn-html5.init"><!-- bucket of build parameters, also needs to be added to the dependencies above. This is the minimum need, can run integrator now.-->
+        <property name="args.draft" value="yes"/><!-- add a draft comment to the doc set and see if it appears - tests whether everythign is integrated (could be still using the default plugin if you haven't set it up correctly. Can remove this arg or turn off once confirmed-->
+        <!-- this adds a CSS file-->
+        <property name="args.copycss" value="yes"/>
+        <property name="args.cssroot" value="${dita.plugin.com.slb.html5-rn}/css"/>
+        <property name="args.css" value="slb_rn_ltr.css"/>
+        <!-- two lines to direct to the css file, means I can reference to the cssroot folder directly later-->
+        <property name="args.csspath" value="css"/> <!-- tells where the put the css file in the ouput-->
+    </target>
+</project>

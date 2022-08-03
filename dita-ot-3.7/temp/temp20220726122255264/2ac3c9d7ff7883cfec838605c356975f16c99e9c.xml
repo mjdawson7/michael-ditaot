@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Repos\michael-ditaot\dita-ot-3.7\temp\temp20220726122255264?><?workdir-uri file:/C:/Repos/michael-ditaot/dita-ot-3.7/temp/temp20220726122255264/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Composite//EN?><?doctype-system ../dtd/ditabase.dtd?><dita xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" domains="(topic task)                            (topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic troubleshooting++task) (topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)                            (topic task strictTaskbody-c)   " ditaarch:DITAArchVersion="1.3">
+<topic id="feature" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:1;6:21" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:1;7:8">Feature compatibility and known issues</title>
+<prolog class="- topic/prolog " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="prolog:1;8:9">
+<metadata class="- topic/metadata " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="metadata:1;9:11"><keywords class="- topic/keywords " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="keywords:1;9:21"><keyword class="- topic/keyword " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="keyword:1;9:30">Feature compatibility</keyword><keyword class="- topic/keyword " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="keyword:2;10:2">Known issues</keyword></keywords>
+<othermeta content="Reservoir Engineering" name="domain" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="othermeta:1;11:59"/>
+<othermeta content="Intermediate" name="difficulty" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="othermeta:2;12:54"/>
+<othermeta content="Reference" name="pagetype" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="othermeta:3;13:49"/>
+<othermeta content="Schlumberger" name="author" class="- topic/othermeta " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="othermeta:4;14:50"/></metadata>
+</prolog>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:1;16:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:1;17:4">The INTERSECT and ECLIPSE feature compatibility section in the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:1;18:2">INTERSECT Migrator User Guide</cite> provides information that may
+be useful when comparing the results of INTERSECT with those from
+other simulators. The list of supported ECLIPSE keywords is provided
+in the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:2;21:14">INTERSECT Migrator User Guide</cite>. </p>
+</body>
+<topic id="feature.licerror" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:2;23:30" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:2;24:8">Licensing error code -5008</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:2;25:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:2;26:4">You might experience an issue when running INTERSECT if the Schlumberger
+Licensing environment variable uses a mixture of local and remote
+license servers and the local server is defined without a port number.</p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:3;29:4">When local and remote license servers are combined in the incorrect
+format, it will often result in a "-5008" error which indicates that
+the system has detected an invalid license file path. This occurs
+when a path is not in the expected format port@host or there is an
+inappropriate use of comma (,) characters in the license file path.</p>
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:4;34:4">To resolve this issue, make sure that there is always a port number
+before each host name. For example, if @localhost is present, change
+it to 27000@localhost or similar.</p>
+</body>
+</topic>
+<topic id="feature.aquifer" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:3;39:29" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:3;40:8">Aquifer modeling</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:3;41:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:1;42:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:1;43:5">Modeling of tracers with aquifers is not available.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.equil" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:4;47:27" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:4;48:8">Equilibration</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:4;49:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:2;50:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:2;51:5">When comparing INTERSECT simulation results with those from other
+simulators, you must compare the initial fluid in place calculated
+by the simulator with the reference simulator, before the dynamic
+simulation is started. If there are differences, then candidates for
+investigation include rock compaction, end-point scaling, capillary
+pressures, initial fluid compositions, pressures, and temperatures.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:3;57:5">Critical fluid initialization is not currently supported when
+the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:1;58:13">COMPVD</codeph> keyword is present. The <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:2;58:61">COMPVD</codeph> keyword is, however, supported for bubble-point and dew-point fluid
+initialization. For critical fluid initialization, the PSAT property
+is reported as zero.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:4;62:5">More detailed information on the INTERSECT initialization and
+equilibration may be output from the simulator, by increasing the
+verbosity level of the Equilibrium Manager. Refer to the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:3;64:66">EquilibriumMgr</codeph> node in the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:3;65:21">INTERSECT User Guide</cite> for more information.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:5;66:5">Some differences with ECLIPSE may be observed in the initialization
+of models using the brine option. This is because the underlying formulation
+in INTERSECT is based on mole fraction rather than concentration variables,
+and a nonlinear conversion is required from the input concentration
+values.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.fluidmodel" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:5;74:32" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:5;75:8">Fluid modeling</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:5;76:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:3;77:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:6;78:5">Some of the algorithms for calculating thermal properties differ
+from those used in ECLIPSE Thermal. To obtain a closer match in results,
+set the <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="i:1;80:12">ThermalProperties</i> field on the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:4;80:55">FluidMgr</codeph> node to <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:5;81:19">"ECLIPSE"</codeph> or <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:6;81:49">"ECLIPSE_IAPWS97"</codeph>. For more information, refer to <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:4;82:41">Thermal simulation</cite> in
+the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:5;83:11">INTERSECT Technical Description</cite>. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:7;84:5">The second order term of the fluid enthalpy equations is different
+between INTERSECT and ECLIPSE. It affects the simulation results only
+if the coefficients are nonzero. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:8;87:5">The reduced phase formulation cannot currently be used with the
+variable API black oil fluid model. A validation error will occur
+if you try to use these features together. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:9;90:5">Use of Langmuir isotherms with dual porosity systems is currently
+not supported.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.gridding.parallel" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:6;95:39" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:6;96:8">Gridding and parallel simulation</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:6;97:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:4;98:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:10;99:5">Unlike ECLIPSE, the INTERSECT simulator has no restrictions on
+forming a 1D or 2D Cartesian partitioning of the grid into domains
+to be simulated by separate processor in a parallel simulation. By
+default, the simulator treats all grids as unstructured and, therefore,
+its parallel partitioning algorithm is completely automatic. The parallel
+partitions can be viewed in a 3D viewer by selecting the grid property
+'PART'. The partitioning may be complicated with unstructured grids,
+or grids with (possibly nested) local grid refinements. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:11;107:5">Traditional Cartesian partitioning is not recommended, but you
+can enable it by first specifying the structure of the grid and then
+the IJK cuts. For more information, refer to the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:7;109:58">StructuredInfo</codeph> and <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:8;110:15">CartesianPartition</codeph> nodes in the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:6;110:62">INTERSECT
+User Guide</cite>. </li>
+</ul>
+</body>
+</topic>
+<topic id="feature.gridindependentwells" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:7;115:42" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:7;116:8">Grid independent wells</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:7;117:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:5;118:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:12;119:5">Grid independent wells cannot be connected to cells that have
+been coarsened. If grid independent wells and coarsening are defined,
+INTERSECT issues a warning. It is responsibility of the user to prevent
+a grid independent well to intersect a coarsened region of the grid.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:13;123:5">Grid independent wells can be defined only for Pillar grids. INTERSECT
+issues an error if grid independent wells are defined for a different
+type of grid.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:14;126:5">The grid independent wells workflow can deal with cells with non-planar
+faces, but for efficiency it assumes the cells are convex. This could
+lead to a slightly inaccurate connection calculation if a well crosses
+a non-convex area of the cell. In this case, a refinement of the well
+deviation will overcome this issue.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:15;131:5">The grid independent wells workflow doesn't currently support
+multisegment wells.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.gridpropedits" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:8;136:35" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:8;137:8">Grid property editing</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:8;138:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:6;139:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:16;140:5">Now grid property editing is possible even when geometry has not
+been supplied to INTERSECT.  There are limitations to what can be
+edited depending on workflow.  For example, this option is not yet
+compatible with the use of MPFA.  Refer to Grid property editing in
+the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:7;144:11">INTERSECT Technical Description</cite>.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:17;145:5">There is a known issue in parallel when <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:9;145:53">TRANSMISSIBILITY_I</codeph>, <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:10;146:12">TRANSMISSIBILITY_J</codeph> or <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:11;146:51">TRANSMISSIBILITY_K</codeph> edits are applied to LGR host cells when those host cells are in
+the halo of a  parallel partition region.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.migrator" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:9;152:30" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:9;153:8">Migrator</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:9;154:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:7;155:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:18;156:5">The <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:12;156:17">--process-grid-edits</codeph> option that disables
+the grid transmissibility calculation within INTERSECT is now deprecated,
+and will be withdrawn in the next release.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:19;159:5">The old <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:13;159:21">--eclipse-init</codeph> command line option is
+incompatible with the default grid edits migration workflow.  Therefore,
+setting this option implies the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:14;161:41">--process-grid-edits</codeph> option. This is now deprecated, and will be withdrawn in the next
+release.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:20;164:5">In thermal cases with the old Migrator workflow (now the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:15;165:2">--process-grid-edits </codeph>option), the use of keyword <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:16;166:2">MULTIPLY</codeph> with <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:17;166:33">TRANX</codeph>, <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:18;166:57">TRANY</codeph> or <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:19;167:14">TRANZ</codeph> is currently not allowed. An error is
+issued in such cases. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:21;169:5">The <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:20;169:17">FREQ</codeph> mnemonic in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:21;169:55">RPTRST</codeph> keyword when specified in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:22;170:41">SCHEDULE</codeph> section
+generates 3D visualization files (<codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:23;171:43">*.FXXX</codeph>) in INTERSECT
+at different timesteps from ECLIPSE. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:22;173:5"><codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:24;173:13">CONLENST</codeph> and <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:25;173:43">CONLENEN</codeph> values
+in the RFT files are incorrect for the Migrator workflow.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:23;175:5">For the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:26;175:21">WELSPECS</codeph> and <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:27;175:51">WELSPECL</codeph> keywords,  if the Pressure table number is defaulted, then the <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="i:2;177:2">WellBoreFluidModel</i> is no longer explicitly set in the resulting <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:28;178:2">WellDef</codeph> node, and the default fluid model is used.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:24;179:5"><codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:29;179:13">MULTX/Y/Z-</codeph> support is the same as Eclipse (i.e.
+support for MULTX etc. in EDIT section only in E100 style decks, MULTPV
+is supported for both styles).</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.petrelintersect" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:10;185:37" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:10;186:8">Petrel to INTERSECT workflow</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:10;187:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:8;188:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:25;189:5">INTERSECT models, created using Field Management, write the INTERSECT
+IXF files directly, rather than using the ECLIPSE Migrator. By using
+INTERSECT grid edits, this results in greatly improved export performance
+for large models.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:26;193:5">If the reservoir simulation grid has LGRs created in a GSG file
+and also in the IXF file, the combined LGRs for this case cannot be
+visualized when imported back into Petrel.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:27;196:5">In a Petrel workflow, the generated <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:30;196:49">WellToCellConnections</codeph> nodes do not define the <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="i:3;197:30">TrueVerticalDepth</i> field. In this
+case, INTERSECT takes the Z coordinate of the center of the connected
+cell as the true vertical depth of the center of the connection.<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:5;200:2">Grid independent wells always accurately calculate the true vertical
+depth of the center of the connections. This could lead to differences
+in results if a Petrel exported well is replaced by a grid independent
+well with the same deviation and completions defined in terms of start
+and stop measured depth.</p></li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:28;205:5">If a grid independent well is added to a native Petrel case, the
+Y coordinates of the well deviation must be flipped (in other words,
+the sign must be changed). This is due to the difference in coordinate
+systems used by Petrel and INTERSECT. <p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:6;208:42">When a well trajectory file
+is exported by Petrel, the Y coordinate is automatically flipped to
+account for this difference. If grid independent wells are added to
+a Petrel case externally, it is the responsibility of the user to
+flip the Y coordinate of the deviation.</p></li>
+</ul>
+</body>
+</topic>
+<topic id="feature.reporting" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:11;216:31" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:11;217:8">Reporting</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:11;218:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:9;219:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:29;220:5">INTERSECT uses a different method than ECLIPSE for calculating
+inter-region phase flows for reporting purposes. It takes the molar
+rates for all components and feeds them to the configured separator
+for the fluid in place report. This may give different results from
+ECLIPSE.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:30;225:5">For consistency with pressure reporting, INTERSECT calculates
+well <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:31;226:14">TEMPERATURE</codeph> as the (pore volume weighted) average
+of connected cell temperatures on all wells (regardless of whether
+they are injector or producer, open or shut). This differs from ECLIPSE
+300 which generally reports <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:32;229:37">WTEMP</codeph> as <ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:10;229:59">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:31;230:5">flowing bottom hole temperature for flowing wells,</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:32;231:5">average reservoir temperature for non-flowing producers,</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:33;232:5">injected fluid temperature for non-flowing injectors.</li>
+</ul>Note that INTERSECT also reports <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:33;233:47">BOTTOM_HOLE_TEMPERATURE</codeph> for flowing wells.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.rockphysics" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:12;238:33" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:12;239:8">Rock physics</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:12;240:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:11;241:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:34;242:5">INTERSECT supports both the Killough and Carlson relative permeability
+hysteresis methods, but not that of Jargon, which is available in
+ECLIPSE 300. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:35;245:5">To increase simulator stability, a validation check has been added
+to ensure that critical and maximum saturations for each cell in the
+simulation grid are separated by at least 1E-06. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:36;248:5">A validation check ensures that saturation endpoints are defined
+in the correct order:<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:7;249:25">  S(connate) &lt; S(critical) &lt; S(maximum) </p><p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:8;250:5">This validation may not be present in other simulators. In addition,
+the simulator checks that the relative permeability at maximum saturation
+is higher than the critical saturation value. </p></li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:37;253:5">The definition and calculation method for a capillary number may
+differ from other simulators, depending on the feature in which it
+is used. For models other than the Whitson gas condensate capillary
+number dependent relative permeability model, INTERSECT does not scale
+the capillary number by porosity, saturation, or immiscible relative
+permeability. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:38;259:5">The precise way in which endpoint scaling is implemented in INTERSECT
+may differ from other simulators. For example, ECLIPSE uses a special
+treatment of each of the intervals between the connate, critical,
+associated critical and maximum saturations, which is not implemented
+in INTERSECT. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:39;264:5">If the scanning curves in Killough relative permeability hysteresis
+become too steep, INTERSECT has a new option to look up the primary
+drainage curve. Enable this option by setting <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:34;266:55">SteepScanningCurveAsPrimaryDrainage
+= TRUE</codeph> on the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:35;267:32">RelPermHysteresis</codeph> node. This
+may improve performance for some models with steep saturation curves.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:40;269:5">The use of nonvolatile residual oil saturation with the near critical
+relative permeability mixing feature can result in nonzero mobility
+of the oil which can lead to convergence problems. This can be mitigated
+in some cases by disabling the near critical relative permeability
+mixing feature.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.solution" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:13;277:30" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:13;278:8">Solution of the equations</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:13;279:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="p:9;280:4">INTERSECT has the ability to simulate in a variety of implicitness
+formulations: fully implicit, <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:36;281:39">IMPSAT</codeph>, <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:37;281:64">IMPES</codeph> and two adaptive implicit (AIM) schemes: <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:38;282:52">AIM_IMPES</codeph> and <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:39;283:15">AIM_IMPSAT</codeph>. </p>
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:12;284:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:41;285:5">The non-fully implicit time-discretization formulations (IMPES
+and IMPSAT) typically suffer from small timesteps and low simulator
+performance. Their adaptive implicit counterparts <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:40;287:59">AIM_IMPES</codeph> and <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:41;288:15">AIM_IMPSAT</codeph> are recommended instead.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:42;289:5">In adaptive implicit (AIM) simulations, especially in parallel,
+the timestep size may be severely restricted by the maximum fraction
+of implicit cells (refer to the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:42;291:41">AimCriteria</codeph> node
+in the<cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:8;292:13"> INTERSECT User Guide</cite>). In this case, it is recommended
+to increase the maximum fraction of implicit cells from the default
+10% up to a maximum of 50%. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:43;295:5">The IMPSAT formulation should only be used in a compositional
+simulation where there are more than two hydrocarbon components. In
+two-component compositional or black oil simulations, the specification
+of IMPSAT results in a warning and the conversion of the simulation
+to IMPES mode.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:44;300:5">In some cases, the timestep size may be limited by the time truncation
+error (TTE). INTERSECT and ECLIPSE use different formulae to evaluate
+the TTE. If the timestep size is being severely restricted by the
+TTE it is recommended that the value of this limit be increased from
+the default (0.1). For more details, refer to the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:43;304:59">TimeStepSizingControls</codeph> node in the <cite class="- topic/cite " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="cite:9;305:21">INTERSECT User Guide</cite>.</li>
+</ul>
+</body>
+</topic>
+<topic id="feature.wellmodeling" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:14;309:34" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:14;310:8">Well modeling</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:14;311:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:13;312:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:45;313:5">When the simulator cannot find a valid flowing solution for a
+well (for example, if the reservoir pressure is below the minimum
+BHP limit for a producer), it shuts the well along with all its connections,
+regardless of the setting item 9 in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:44;316:49">WELSPECS</codeph> keyword.
+This differs from ECLIPSE, which performs a surface shut-in under
+these circumstances if item 9 in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:45;318:46">WELSPECS</codeph> keyword
+is set to STOP.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:46;320:5"> The solution of heaters in INTERSECT is different to the approach
+used in ECLIPSE.  Internally, a heater with multiple cells attached
+to it is treated as a whole rather than the method used by ECLIPSE
+that solves each cell individually. This is an improvement on the
+ECLIPSE method, however it is computationally more difficult and currently
+suffers from known convergence issues. If you encounter convergence
+issues, the workaround is to split the heater into individual cells,
+which yields closer results to ECLIPSE.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:47;328:5">When using the variable API facility, the convergence behavior
+of the simulation may be improved by banning crossflow in wells. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:48;330:5">INTERSECT reports the actual steam quality (WSQU) at the bottomhole
+depth in the well while ECLIPSE Thermal reports the user-defined value.
+The actual steam quality is slightly different depending, for example,
+on well pressure and crossflow.</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:49;334:5"> The calculation of voidage rate is performed by transforming
+the wellstream fluid to the average conditions over the field or a
+specified region. In black oil simulations, this calculation differs
+between ECLIPSE 300 and ECLIPSE 100. In ECLIPSE 300, the fluid properties
+are calculated at the average hydrocarbon pressure in the field or
+region. However, in ECLIPSE 100 the solution gas-oil ratio (R<sub class="+ topic/ph hi-d/sub " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="sub:1;340:2">s</sub>) of the oil phase is also capped to not exceed the average
+R<sub class="+ topic/ph hi-d/sub " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="sub:2;341:7">s</sub> of the field or region. The calculation in INTERSECT
+by default, follows the ECLIPSE 300 method, and may therefore give
+different voidage rates than ECLIPSE 100 when the oil in the field
+or region is significantly undersaturated and the wellstream gas-oil
+ratio is significantly higher than the average field or region Rs.
+Compatibility with the ECLIPSE 100 method can be improved by setting
+the <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="i:4;347:8">LimitByAverageRsRv</i> field in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:46;347:52">ResVolConditions</codeph> node. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:50;349:5">The drift flux flow model in multisegment wells is not supported
+in thermal simulations. </li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:51;351:5">In runs using the hysteresis option, hysteresis does not apply
+in rock models that are specific to well-to-cell connections. If a
+well-to-cell connection has a specific rock model assigned to it (see
+the field <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="i:5;354:14">RockModelName</i> in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:47;354:47">WellSaturationFunctions</codeph> node), the saturation table defined in the <i class="+ topic/ph hi-d/i " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="i:6;355:49">DrainageSaturationFunction</i> field in the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:48;356:24">RockModelDefinition</codeph> for this rock
+model is used for both drainage and imbibition processes. <note class="- topic/note " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="note:1;357:65">The <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="codeph:49;358:2">COMPIMB</codeph> feature in ECLIPSE has not yet been implemented
+in INTERSECT, so at present it is not possible to provide an imbibition
+table for use in rock models specific to well-to-cell connections.</note></li>
+</ul>
+</body>
+</topic>
+<topic id="feature.welloptimizers" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="topic:15;365:36" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="title:15;366:8">Well optimizers</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="body:15;367:7">
+<ul class="- topic/ul " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="ul:14;368:5">
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:52;369:5">Only Field Management groups constraints for the same fluid phase
+as the optimizer target fluid phase will be honored. A warning message
+is given where group constraints are incompatible with the well optimizer</li>
+<li class="- topic/li " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/feature.xml" xtrc="li:53;372:5">The streamline optimizer only supports deferral and control of
+water breakthrough.</li>
+</ul>
+</body>
+</topic>
+</topic>
+</dita>

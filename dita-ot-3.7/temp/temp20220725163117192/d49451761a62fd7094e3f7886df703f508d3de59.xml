@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Repos\michael-ditaot\dita-ot-3.7\temp\temp20220725163117192?><?workdir-uri file:/C:/Repos/michael-ditaot/dita-ot-3.7/temp/temp20220725163117192/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Composite//EN?><?doctype-system ../dtd/ditabase.dtd?><dita xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" domains="(topic task)                            (topic concept)                            (topic concept glossentry)                            (topic concept glossgroup)                            (topic reference)                            (topic troubleshooting++task) (topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)                            (topic task strictTaskbody-c)   " ditaarch:DITAArchVersion="1.3">
+<topic id="conductiveheat_1745834" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml" xtrc="topic:1;6:36" specializations="@props/deliveryTarget">
+<title class="- topic/title " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml" xtrc="title:1;7:8">Dynamic conductive heat transfer film coefficient</title>
+<body class="- topic/body " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml" xtrc="body:1;8:7">
+<p class="- topic/p " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml" xtrc="p:1;9:4">A new option is available to dynamically calculate an overall heat
+transfer coefficient. Existing technology under the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/release%20notes%20IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml" xtrc="codeph:1;10:61">SegmentConductiveHeatTransfer</codeph> node enables you to specify this coefficient as a fixed value together
+with a thermal contact area to model conductive heat transfer away
+from the well to the active grid, overburden, or from segment to segment.
+The new option provides the ability to set thicknesses and thermal
+conductivities of a pipe wall, insulation, cement, and earth so that,
+together with Nusselt number correlations for conductive heat transfer
+from the bulk flow to the inner pipe wall, an overall heat transfer
+coefficient can be determined. Tubing/annulus well configurations
+are supported. The new option gives improved accuracy for the simulation
+of thermal operations that are sensitive to heat transfer both into
+and away from the wellbore, including geothermal and steam assisted
+gravity drainage operations.</p>
+</body>
+</topic>
+</dita>

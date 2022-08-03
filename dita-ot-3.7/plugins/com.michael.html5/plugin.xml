@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<plugin id="com.michael.html5">
-  <transtype name="michael-html5" extends="html5" desc="Michael HTML5"/>
-  <feature extension="ant.import" file="build_dita2michael-html5.xml"/>
-</plugin>

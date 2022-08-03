@@ -31,10 +31,10 @@ See the accompanying LICENSE file for applicable license.
   
   <xsl:import href="plugin:org.dita.html5:xsl/htmlflag.xsl"/>
     
-  
+  <xsl:import xmlns:dita="http://dita-ot.sourceforge.net" href="plugin:com.michael.html5:xsl/dita2michael-html5.xsl"/>
 
   <!-- root rule -->
-  <xsl:template xmlns:dita="http://dita-ot.sourceforge.net" match="/">
+  <xsl:template match="/">
     <xsl:apply-templates/>
   </xsl:template>
   

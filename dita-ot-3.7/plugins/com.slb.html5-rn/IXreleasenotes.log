@@ -1,0 +1,1565 @@
+Detected Java version: 1.8 in: C:\Program Files\Java\jre1.8.0_333
+Detected OS: Windows 10
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/build.xml
+Project base dir set to: C:\Repos\michael-ditaot\dita-ot-3.7
+parsing buildfile jar:file:/C:/Repos/michael-ditaot/dita-ot-3.7/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/Repos/michael-ditaot/dita-ot-3.7/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Override ignored for property "dita.dir"
+Override ignored for property "dita.dir"
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\local.properties
+ [property] Unable to find property file: C:\Repos\michael-ditaot\dita-ot-3.7\local.properties
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build.xml
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_init.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_init.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_init.xml
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\config\org.dita.dost.platform\plugin.properties
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\config\configuration.properties
+ [macrodef] creating macro  job-helper
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_preprocess.xml
+Property "conserve-memory" has not been set
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess2.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess2.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_preprocess2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.html5\build_dita2michael-html5.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.html5\build_dita2michael-html5.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.michael.html5/build_dita2michael-html5.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.pdf2\build_dita2michael-pdf2.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.pdf2\build_dita2michael-pdf2.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.michael.pdf2/build_dita2michael-pdf2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\build_dita2html5.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\build_dita2html5.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.html5/build_dita2html5.xml
+ [macrodef] creating macro  html5.topics
+ [macrodef] creating macro  html5.map
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.slb.html5-rn\build_dita2slb-html5-rn.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.slb.html5-rn\build_dita2slb-html5-rn.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.slb.html5-rn/build_dita2slb-html5-rn.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_general.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_general.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.xhtml/build_general.xml
+ [macrodef] creating macro  topics.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_dita2xhtml.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_dita2xhtml.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.xhtml/build_dita2xhtml.xml
+ [macrodef] creating macro  map.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.index\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.index\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.index/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.axf\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.axf\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.axf/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.fop\build_fop.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.fop\build_fop.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.fop/build_fop.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.xep\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.xep\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.xep/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.normalize\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.normalize\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.normalize/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-markdown.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-markdown.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.lwdita/build-markdown.xml
+ [macrodef] creating macro  markdown.map
+ [macrodef] creating macro  markdown.topics
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-html.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-html.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.lwdita/build-html.xml
+Overriding previous definition of reference to ant.projectHelper
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `init' is [init]
+Complete build sequence is [init, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, dita2michael-html5.michael-html5.init, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, michael-html5.init, michael-copy, html5.init, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map, html5.css, dita2html5, dita2michael-html5.dita2michael-html5, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita2michael-html5, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2custpdf.init, map2pdf2, topic2pdf2, dita2pdf2, DOST.dita2custpdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, slb-rn-html5.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2slb-html5-rn.slb-rn-html5.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2michael-pdf2.michael-pdf2.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, michael-pdf2.init, dita2michael-pdf2.dita2michael-pdf2, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, dita2michael-html5.michael-copy, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, DOST.dita2custpdf.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2custpdf, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2michael-pdf2, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita2slb-html5-rn, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2slb-html5-rn.dita2slb-html5-rn, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+
+init:
+Override ignored for property "clean.temp"
+Project base dir set to: C:\Repos\michael-ditaot\dita-ot-3.7
+  [antcall] calling target(s) [dita2slb-html5-rn, clean-temp] in build file C:\Repos\michael-ditaot\dita-ot-3.7\build.xml
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/build.xml
+Project base dir set to: C:\Repos\michael-ditaot\dita-ot-3.7
+Override ignored for property "ant.file.DOST.dir"
+Override ignored for property "dita.dir"
+Override ignored for property "dita.dir"
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\local.properties
+ [property] Unable to find property file: C:\Repos\michael-ditaot\dita-ot-3.7\local.properties
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build.xml
+Override ignored for property "dita.plugin.com.slb.pdf-rn.dir"
+Override ignored for property "dita.plugin.org.dita.htmlhelp.dir"
+Override ignored for property "dita.plugin.org.dita.base.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "dita.plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "dita.plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "dita.plugin.org.dita.normalize.dir"
+Override ignored for property "dita.plugin.com.michael.pdf2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "dita.plugin.com.michael.html5.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "dita.plugin.org.dita.html5.dir"
+Override ignored for property "dita.plugin.org.dita.index.dir"
+Override ignored for property "dita.plugin.org.dita.xhtml.dir"
+Override ignored for property "dita.plugin.org.lwdita.dir"
+Override ignored for property "dita.plugin.com.michael.strings.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "dita.plugin.com.slb.html5-rn.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v2_0.dir"
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_init.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_init.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_init.xml
+Override ignored for property "otrelease"
+Override ignored for property "otversion"
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\config\org.dita.dost.platform\plugin.properties
+Override ignored for property "plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "plugin.org.dita.htmlhelp.dir"
+Override ignored for property "transtypes"
+Override ignored for property "plugin.org.dita.base.dir"
+Override ignored for property "parser.md"
+Override ignored for property "parser.mdita"
+Override ignored for property "plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "plugin.com.slb.html5-rn.dir"
+Override ignored for property "parser.hdita"
+Override ignored for property "plugin.com.slb.pdf-rn.dir"
+Override ignored for property "plugin.org.dita.normalize.dir"
+Override ignored for property "plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "plugin.org.dita.pdf2.dir"
+Override ignored for property "print_transtypes"
+Override ignored for property "plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "plugin.org.dita.xhtml.dir"
+Override ignored for property "supported_resource_extensions"
+Override ignored for property "plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "plugin.org.dita.index.dir"
+Override ignored for property "plugin.org.lwdita.dir"
+Override ignored for property "plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "plugin.com.michael.pdf2.dir"
+Override ignored for property "supported_html_extensions"
+Override ignored for property "supported_image_extensions"
+Override ignored for property "plugin.org.oasis-open.dita.v2_0.dir"
+Override ignored for property "plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "plugin.com.michael.html5.dir"
+Override ignored for property "plugin.com.michael.strings.dir"
+Override ignored for property "parser.markdown"
+Override ignored for property "plugin.org.dita.html5.dir"
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\config\configuration.properties
+Override ignored for property "default.cascade"
+Override ignored for property "registry"
+Override ignored for property "plugin.ignores"
+Override ignored for property "plugin.order"
+Override ignored for property "temp-file-name-scheme"
+Override ignored for property "plugindirs"
+Override ignored for property "org.dita.pdf2.i18n.enabled"
+Override ignored for property "cli.color"
+ [macrodef] creating macro  job-helper
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_preprocess.xml
+Property "conserve-memory" has not been set
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess2.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess2.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_preprocess2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.html5\build_dita2michael-html5.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.html5\build_dita2michael-html5.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.michael.html5/build_dita2michael-html5.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.pdf2\build_dita2michael-pdf2.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.pdf2\build_dita2michael-pdf2.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.michael.pdf2/build_dita2michael-pdf2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\build_dita2html5.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\build_dita2html5.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.html5/build_dita2html5.xml
+ [macrodef] creating macro  html5.topics
+ [macrodef] creating macro  html5.map
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.slb.html5-rn\build_dita2slb-html5-rn.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.slb.html5-rn\build_dita2slb-html5-rn.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.slb.html5-rn/build_dita2slb-html5-rn.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_general.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_general.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.xhtml/build_general.xml
+ [macrodef] creating macro  topics.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_dita2xhtml.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_dita2xhtml.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.xhtml/build_dita2xhtml.xml
+ [macrodef] creating macro  map.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.index\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.index\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.index/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.axf\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.axf\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.axf/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.fop\build_fop.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.fop\build_fop.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.fop/build_fop.xml
+Override ignored for property "fop.home"
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.xep\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.xep\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.xep/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.normalize\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.normalize\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.normalize/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-markdown.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-markdown.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.lwdita/build-markdown.xml
+ [macrodef] creating macro  markdown.map
+ [macrodef] creating macro  markdown.topics
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-html.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-html.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.lwdita/build-html.xml
+Overriding previous definition of reference to ant.projectHelper
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `dita2slb-html5-rn' is [slb-rn-html5.init, html5.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, conref, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map.init, html5.map.toc, html5.map, html5.css, dita2html5, dita2slb-html5-rn]
+Complete build sequence is [slb-rn-html5.init, html5.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, conref, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map.init, html5.map.toc, html5.map, html5.css, dita2html5, dita2slb-html5-rn, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, dita2michael-html5.michael-html5.init, markdown_github.init, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, michael-html5.init, michael-copy, dita2michael-html5.dita2michael-html5, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita2michael-html5, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2custpdf.init, map2pdf2, topic2pdf2, dita2pdf2, DOST.dita2custpdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2slb-html5-rn.slb-rn-html5.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2michael-pdf2.michael-pdf2.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, michael-pdf2.init, dita2michael-pdf2.dita2michael-pdf2, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, dita2michael-html5.michael-copy, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, DOST.dita2custpdf.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2custpdf, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2michael-pdf2, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2slb-html5-rn.dita2slb-html5-rn, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+Build sequence for target(s) `clean-temp' is [clean-temp]
+Complete build sequence is [clean-temp, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, dita2michael-html5.michael-html5.init, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, michael-html5.init, michael-copy, html5.init, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map, html5.css, dita2html5, dita2michael-html5.dita2michael-html5, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita2michael-html5, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2custpdf.init, map2pdf2, topic2pdf2, dita2pdf2, DOST.dita2custpdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, slb-rn-html5.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2slb-html5-rn.slb-rn-html5.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2michael-pdf2.michael-pdf2.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, michael-pdf2.init, dita2michael-pdf2.dita2michael-pdf2, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, dita2michael-html5.michael-copy, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, DOST.dita2custpdf.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2custpdf, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2michael-pdf2, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita2slb-html5-rn, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2slb-html5-rn.dita2slb-html5-rn, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+  [antcall] Entering C:\Repos\michael-ditaot\dita-ot-3.7\build.xml...
+Build sequence for target(s) `dita2slb-html5-rn', `clean-temp' is [slb-rn-html5.init, html5.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, conref, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map.init, html5.map.toc, html5.map, html5.css, dita2html5, dita2slb-html5-rn, clean-temp]
+Complete build sequence is [slb-rn-html5.init, html5.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, conref, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map.init, html5.map.toc, html5.map, html5.css, dita2html5, dita2slb-html5-rn, clean-temp, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, dita2michael-html5.michael-html5.init, markdown_github.init, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, michael-html5.init, michael-copy, dita2michael-html5.dita2michael-html5, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita2michael-html5, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2custpdf.init, map2pdf2, topic2pdf2, dita2pdf2, DOST.dita2custpdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2slb-html5-rn.slb-rn-html5.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2michael-pdf2.michael-pdf2.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, michael-pdf2.init, dita2michael-pdf2.dita2michael-pdf2, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, dita2michael-html5.michael-copy, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, DOST.dita2custpdf.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2custpdf, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, html5.copy-css-user, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2michael-pdf2, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2slb-html5-rn.dita2slb-html5-rn, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+
+slb-rn-html5.init:
+Property "dita.plugin.com.slb.html5-rn" has not been set
+
+html5.init:
+Property "nav-toc" has not been set
+Property "args.ftr" has not been set
+Property "args.ftr" has not been set
+Property "args.hdr" has not been set
+Property "args.hdr" has not been set
+Property "args.hdf" has not been set
+Property "args.hdf" has not been set
+Override ignored for property "user.css.real"
+[available] Unable to find file ${dita.plugin.com.slb.html5-rn}\css\slb_rn_ltr.css
+
+init-properties:
+Override ignored for property "dita.temp.dir"
+Override ignored for property "output.dir"
+Property "temp.output.dir.name" has not been set
+[init-project] Initializing project
+ [property] Loading Environment env.
+
+check-arg:
+[available] Found file: plugins\org.dita.html5\xsl\dita2html5.xsl
+Property "args.outext" has not been set
+Property "args.outext" has not been set
+Property "args.outext" has not been set
+Property "args.outext" has not been set
+    [mkdir] Skipping c:\release_notes_IX\out\slb_rn_html5 because it already exists.
+    [mkdir] Created dir: c:\release_notes_IX\temphtml5
+Property "args.hide.parent.link" has not been set
+
+log-arg:
+Property "org.xml.sax.driver" has not been set
+[available] Unable to load class org.apache.crimson.parser.XMLReaderImpl
+[available] Unable to load class net.sf.saxon.StyleSheet
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Repos\michael-ditaot\dita-ot-3.7
+     [echo] * dita.dir = C:\Repos\michael-ditaot\dita-ot-3.7\bin\..
+     [echo] * transtype = slb-html5-rn
+     [echo] * tempdir = c:\release_notes_IX\temphtml5
+     [echo] * outputdir = c:\release_notes_IX\out\slb_rn_html5
+     [echo] * clean.temp = yes
+     [echo] * DITA-OT version = 3.7.0
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Tue Aug 02 17:37:36 BST 2022
+     [echo] args.copycss=yes
+     [echo] args.css=slb_rn_ltr.css
+     [echo] args.csspath=css
+     [echo] args.cssroot=${dita.plugin.com.slb.html5-rn}/css
+     [echo] args.draft=yes
+     [echo] args.grammar.cache=yes
+     [echo] args.input=C\:\\release_notes_IX\\ReleaseNotes.ditamap
+     [echo] args.rellinks=none
+     [echo] args.xml.systemid.set=yes
+     [echo] args.xsl=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.html5/xsl/dita2html5.xsl
+     [echo] dita.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\bin\\..
+     [echo] dita.html5.reloadstylesheet=false
+     [echo] dita.output.dir=c\:\\release_notes_IX\\out\\slb_rn_html5
+     [echo] dita.plugin.com.michael.html5.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\com.michael.html5
+     [echo] dita.plugin.com.michael.pdf2.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\com.michael.pdf2
+     [echo] dita.plugin.com.michael.strings.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\com.michael.strings
+     [echo] dita.plugin.com.slb.html5-rn.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\com.slb.html5-rn
+     [echo] dita.plugin.com.slb.pdf-rn.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\com.slb.pdf-rn
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.base
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.html5.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.html5
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.index.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.index
+     [echo] dita.plugin.org.dita.normalize.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.normalize
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.pdf2.axf
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.pdf2.fop
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.lwdita.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.lwdita
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.oasis-open.dita.techcomm.v2_0
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.oasis-open.dita.v2_0
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=C\:\\Repos\\michael-ditaot\\dita-ot-3.7\\plugins\\org.oasis-open.xdita.v0_2_2
+     [echo] dita.temp.dir=c\:\\release_notes_IX\\temphtml5
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess.init:
+[pathconvert] Set property dita.map.filename.root = ReleaseNotes
+     [echo] *****************************************************************
+     [echo] * input = C:\release_notes_IX\ReleaseNotes.ditamap
+Property "args.resources" has not been set
+     [echo] * resources = ${args.resources}
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+gen-list:
+Job not found from Ant project reference
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes.ditamap
+ [gen-list] Processing file:/C:/dummy.ditamap
+ [gen-list] [DOTX008E][ERROR] File 'file:/C:/dummy.ditamap' does not exist or cannot be loaded.
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/1741505_outputwellconnection.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/cgl_1780029.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/diffusion_1780781.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/ixf2csv_1719422.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/minnetworkperiod_1775071.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/mpi_1744034.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/multiscale_1763927_2.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/obsh_1725119.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/presetreporting_1703986.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/reporting_overview.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/solids_1746326.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/behavioralchanges.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/documentation.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/feature.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/installer.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/licensing.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/macros.xml
+ [gen-list] [DOTX008E][ERROR] File 'file:/C:/release_notes_IX/ReleaseNotes/macros.xml' does not exist or cannot be loaded.
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/platform.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/releaseinfo.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/thirdparty.xml
+ [gen-list] Processing file:/C:/release_notes_IX/ReleaseNotes/whatsnew.xml
+ [gen-list] Serializing job specification
+ [gen-list] GenMapAndTopicListModule processing took 1,982 ms
+
+debug-filter:
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/multiscale_1763927_2.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/multiscale_1763927_2.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/documentation.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/documentation.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/minnetworkperiod_1775071.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/minnetworkperiod_1775071.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/solids_1746326.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/solids_1746326.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes.ditamap to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:9:66: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\releaseinfo.xml", using 'ReleaseNotes/releaseinfo.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:12:72: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\whatsnew.xml", using 'ReleaseNotes/whatsnew.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:14:56: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\gpuimprovements.xml", using 'ReleaseNotes/2022_1/gpuimprovements.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:18:28: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\multiscale_1763927_2.xml", using 'ReleaseNotes/2022_1/multiscale_1763927_2.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:21:66: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\waterweakening_1750990.xml", using 'ReleaseNotes/2022_1/waterweakening_1750990.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:25:14: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\diffusion_1780781.xml", using 'ReleaseNotes/2022_1/diffusion_1780781.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:29:28: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\1745834_conductiveheat.xml", using 'ReleaseNotes/2022_1/1745834_conductiveheat.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:31:75: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\solids_1746326.xml", using 'ReleaseNotes/2022_1/solids_1746326.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:34:61: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\ixf2csv_1719422.xml", using 'ReleaseNotes/2022_1/ixf2csv_1719422.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:38:14: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\minnetworkperiod_1775071.xml", using 'ReleaseNotes/2022_1/minnetworkperiod_1775071.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:42:28: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\testwellaction_1763203.xml", using 'ReleaseNotes/2022_1/testwellaction_1763203.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:44:75: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\obsh_1725119.xml", using 'ReleaseNotes/2022_1/obsh_1725119.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:49:14: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\presetreporting_1703986.xml", using 'ReleaseNotes/2022_1/presetreporting_1703986.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:53:28: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\1741505_outputwellconnection.xml", using 'ReleaseNotes/2022_1/1741505_outputwellconnection.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:55:72: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\pzreport_1788156.xml", using 'ReleaseNotes/2022_1/pzreport_1788156.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:59:14: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\cgl_1780029.xml", using 'ReleaseNotes/2022_1/cgl_1780029.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:61:73: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\reporting_overview.xml", using 'ReleaseNotes/2022_1/reporting_overview.xml'.
+   [filter] file:/C:/release_notes_IX/ReleaseNotes.ditamap:64:65: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "ReleaseNotes\2022_1\mpi_1744034.xml", using 'ReleaseNotes/2022_1/mpi_1744034.xml'.
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml
+   [filter] file:/C:/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml:32:44: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "..\img\rn_testwellaction.png", using '../img/rn_testwellaction.png'.
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/installer.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/installer.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/diffusion_1780781.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/diffusion_1780781.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/licensing.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/licensing.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/behavioralchanges.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/behavioralchanges.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/reporting_overview.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/reporting_overview.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/releaseinfo.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/releaseinfo.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/1741505_outputwellconnection.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1741505_outputwellconnection.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml
+   [filter] file:/C:/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml:30:62: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "..\img\rn_waterweakening.png", using '../img/rn_waterweakening.png'.
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/mpi_1744034.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/mpi_1744034.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/presetreporting_1703986.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/presetreporting_1703986.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/platform.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/platform.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml
+   [filter] file:/C:/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml:18:56: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "..\img\rn_pzreport.png", using '../img/rn_pzreport.png'.
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml
+   [filter] file:/C:/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml:41:56: [DOTJ054E][ERROR] Unable to parse invalid href attribute value "..\img\rn_coloring.png", using '../img/rn_coloring.png'.
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/ixf2csv_1719422.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/ixf2csv_1719422.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/whatsnew.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/whatsnew.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/obsh_1725119.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/obsh_1725119.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/2022_1/cgl_1780029.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/cgl_1780029.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/feature.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/feature.xml
+   [filter] Processing file:/C:/release_notes_IX/ReleaseNotes/thirdparty.xml to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/thirdparty.xml
+   [filter] DebugAndFilterModule processing took 972 ms
+Overriding previous definition of property "transtypes"
+Overriding previous definition of property "parser.md"
+Overriding previous definition of property "plugin.org.dita.specialization.dita11.dir"
+Overriding previous definition of property "plugin.com.slb.html5-rn.dir"
+Overriding previous definition of property "parser.hdita"
+Overriding previous definition of property "cli.color"
+Overriding previous definition of property "plugin.org.dita.pdf2.dir"
+Overriding previous definition of property "print_transtypes"
+Overriding previous definition of property "supported_resource_extensions"
+Overriding previous definition of property "plugin.org.dita.xhtml.dir"
+Overriding previous definition of property "plugin.org.dita.index.dir"
+Overriding previous definition of property "plugin.com.michael.pdf2.dir"
+Overriding previous definition of property "supported_html_extensions"
+Overriding previous definition of property "plugin.order"
+Overriding previous definition of property "otrelease"
+Overriding previous definition of property "supported_image_extensions"
+Overriding previous definition of property "org.dita.pdf2.i18n.enabled"
+Overriding previous definition of property "plugin.com.michael.strings.dir"
+Overriding previous definition of property "plugin.org.dita.html5.dir"
+Overriding previous definition of property "default.cascade"
+Overriding previous definition of property "plugin.org.oasis-open.xdita.v0_2_2.dir"
+Overriding previous definition of property "plugin.org.dita.eclipsehelp.dir"
+Overriding previous definition of property "plugin.org.dita.htmlhelp.dir"
+Overriding previous definition of property "temp-file-name-scheme"
+Overriding previous definition of property "plugin.org.dita.base.dir"
+Overriding previous definition of property "plugindirs"
+Overriding previous definition of property "parser.mdita"
+Overriding previous definition of property "plugin.ignores"
+Overriding previous definition of property "plugin.com.slb.pdf-rn.dir"
+Overriding previous definition of property "registry"
+Overriding previous definition of property "plugin.org.dita.pdf2.axf.dir"
+Overriding previous definition of property "plugin.org.dita.normalize.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v1_2.dir"
+Overriding previous definition of property "plugin.org.dita.pdf2.fop.dir"
+Overriding previous definition of property "plugin.org.lwdita.dir"
+Overriding previous definition of property "plugin.org.dita.pdf2.xep.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v2_0.dir"
+Overriding previous definition of property "otversion"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v1_3.dir"
+Overriding previous definition of property "plugin.com.michael.html5.dir"
+Overriding previous definition of property "parser.markdown"
+Scanning for release_notes_IX\ReleaseNotes.ditamap
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes.ditamap
+[pathconvert] Set property inputMapPath = file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+
+mapref-check:
+
+mapref:
+Property "dita.preprocess.reloadstylesheet" has not been set
+   [mapref] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+   [mapref] file:/C:/release_notes_IX/ReleaseNotes.ditamap:84:64: [DOTX031E][ERROR]: The file ../dummy.ditamap is not available to resolve link information. 
+   [mapref] MaprefModule processing took 2,107 ms
+
+branch-filter:
+[branch-filter] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[branch-filter] Reading file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[branch-filter] Split branches and generate copy-to
+[branch-filter] Filter map
+[branch-filter] Rewrite duplicate topic references
+[branch-filter] Filter topics and generate copies
+[branch-filter] Remove obsolete references
+[branch-filter] Filter existing topics
+[branch-filter] Writing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[branch-filter] BranchFilterModule processing took 40 ms
+
+keyref:
+   [keyref] KeyrefModule processing took 1 ms
+   [mapref] Transforming into c:\release_notes_IX\temphtml5
+   [mapref] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/xsl/preprocess/mapref.xsl
+Apache resolver library found, xml-commons resolver will be used
+   [mapref] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/xsl/preprocess/mapref.xsl
+   [mapref] Set parameter keep-submap-href to 'false'
+   [mapref] Set parameter child-topicref-warning to 'false'
+   [mapref] Set parameter TRANSTYPE to 'slb-html5-rn'
+   [mapref] Set parameter file-being-processed to 'ReleaseNotes.ditamap'
+   [mapref] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+   [mapref] XsltModule processing took 548 ms
+
+copy-to:
+  [copy-to] CopyToModule processing took 19 ms
+
+conrefpush:
+[conref-push] ConrefPushModule processing took 2 ms
+
+conref:
+Property "dita.preprocess.reloadstylesheet" has not been set
+  [makeurl] Setting exportfile.url to URL file:/c:/release_notes_IX/temphtml5/export.xml
+   [conref] XsltModule processing took 0 ms
+
+profile-check:
+
+profile:
+Skipped because property 'preprocess.profile.skip' set.
+
+topic-fragment:
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/multiscale_1763927_2.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/documentation.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/minnetworkperiod_1775071.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/solids_1746326.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/installer.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/diffusion_1780781.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/licensing.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/behavioralchanges.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/reporting_overview.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/releaseinfo.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1741505_outputwellconnection.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/mpi_1744034.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/presetreporting_1703986.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/platform.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/ixf2csv_1719422.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/whatsnew.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/obsh_1725119.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/cgl_1780029.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/feature.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/thirdparty.xml
+[topic-fragment] Configure filter org.dita.dost.writer.TopicFragmentFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeSimpleTableFilter
+[topic-fragment] Configure filter org.dita.dost.writer.CoderefResolver
+[topic-fragment] Configure filter org.dita.dost.writer.NormalizeCodeblock
+[topic-fragment] XmlFilterModule processing took 459 ms
+
+chunk-check:
+
+chunk:
+    [chunk] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+    [chunk] Writing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+    [chunk] ChunkModule processing took 48 ms
+   [chunk2] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+   [chunk2] ChunkModule processing took 9 ms
+Scanning for release_notes_IX\ReleaseNotes\2022_1\multiscale_1763927_2.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\multiscale_1763927_2.xml
+Scanning for release_notes_IX\ReleaseNotes\documentation.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\documentation.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\minnetworkperiod_1775071.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\minnetworkperiod_1775071.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\solids_1746326.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\solids_1746326.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\testwellaction_1763203.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\testwellaction_1763203.xml
+Scanning for release_notes_IX\ReleaseNotes\installer.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\installer.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\diffusion_1780781.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\diffusion_1780781.xml
+Scanning for release_notes_IX\ReleaseNotes\licensing.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\licensing.xml
+Scanning for release_notes_IX\ReleaseNotes\behavioralchanges.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\behavioralchanges.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\reporting_overview.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\reporting_overview.xml
+Scanning for release_notes_IX\ReleaseNotes\releaseinfo.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\releaseinfo.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\1741505_outputwellconnection.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\1741505_outputwellconnection.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\waterweakening_1750990.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\waterweakening_1750990.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\mpi_1744034.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\mpi_1744034.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\presetreporting_1703986.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\presetreporting_1703986.xml
+Scanning for release_notes_IX\ReleaseNotes\platform.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\platform.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\1745834_conductiveheat.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\1745834_conductiveheat.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\pzreport_1788156.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\pzreport_1788156.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\gpuimprovements.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\gpuimprovements.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\ixf2csv_1719422.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\ixf2csv_1719422.xml
+Scanning for release_notes_IX\ReleaseNotes\whatsnew.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\whatsnew.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\obsh_1725119.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\obsh_1725119.xml
+Scanning for release_notes_IX\ReleaseNotes\2022_1\cgl_1780029.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\cgl_1780029.xml
+Scanning for release_notes_IX\ReleaseNotes\feature.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\feature.xml
+Scanning for release_notes_IX\ReleaseNotes\thirdparty.xml
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\thirdparty.xml
+[pathconvert] Set property inputTopicPath = file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/multiscale_1763927_2.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/documentation.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/minnetworkperiod_1775071.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/solids_1746326.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/installer.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/diffusion_1780781.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/licensing.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/behavioralchanges.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/reporting_overview.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/releaseinfo.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1741505_outputwellconnection.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/mpi_1744034.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/presetreporting_1703986.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/platform.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/ixf2csv_1719422.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/whatsnew.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/obsh_1725119.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/cgl_1780029.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/feature.xml;file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/thirdparty.xml
+
+move-meta-entries:
+[move-meta] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[move-meta] Writing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[move-meta] Loading stylesheet C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+[move-meta] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[move-meta] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap.tmp1659458263022
+[move-meta] Set parameter basedir to 'C:\Repos\michael-ditaot\dita-ot-3.7'
+[move-meta] Set parameter style to 'C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\xsl\preprocess\mappull.xsl'
+[move-meta] Set parameter conserve-memory to 'false'
+[move-meta] Set parameter message to 'Move metadata entries.'
+[move-meta] Set parameter inputmap to 'release_notes_IX\ReleaseNotes.ditamap'
+[move-meta] file:/C:/release_notes_IX/ReleaseNotes.ditamap:79:67: [DOTX061W][WARN]: ID 'macros' was used in topicref tag but did not reference a topic element. The href attribute on a topicref element should only reference topic level elements. 
+[move-meta] file:/C:/release_notes_IX/ReleaseNotes.ditamap:79:67: [DOTX026W][WARN]: Unable to retrieve linktext from target: 'ReleaseNotes/macros.xml#macros'. Using navigation title as fallback. 
+[move-meta] Moving file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap.tmp1659458263022 to file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[move-meta] MoveMetaModule processing took 1,089 ms
+
+maplink-check:
+
+maplink:
+Property "dita.preprocess.reloadstylesheet" has not been set
+  [maplink] MoveLinksModule processing took 645 ms
+
+topicpull-check:
+
+topicpull:
+Property "dita.preprocess.reloadstylesheet" has not been set
+[topicpull] Transforming into c:\release_notes_IX\temphtml5
+[topicpull] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/multiscale_1763927_2.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/documentation.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/minnetworkperiod_1775071.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/solids_1746326.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/installer.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/diffusion_1780781.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/licensing.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/behavioralchanges.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/reporting_overview.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/releaseinfo.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1741505_outputwellconnection.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/mpi_1744034.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/presetreporting_1703986.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/platform.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/ixf2csv_1719422.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/whatsnew.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/obsh_1725119.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/cgl_1780029.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/feature.xml
+[topicpull] Set parameter ONLYTOPICINMAP to 'false'
+[topicpull] Set parameter defaultLanguage to 'en'
+[topicpull] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/thirdparty.xml
+[topicpull] XsltModule processing took 745 ms
+
+clean-map-check:
+
+clean-map:
+Property "dita.preprocess.reloadstylesheet" has not been set
+[clean-map] Transforming into c:\release_notes_IX\temphtml5
+[clean-map] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+[clean-map] XsltModule processing took 191 ms
+
+clean-preprocess:
+[clean-preprocess] CleanPreprocessModule processing took 10 ms
+
+copy-image:
+Scanning for release_notes_IX\ReleaseNotes\img\rn_pzreport.png
+Found source directory file C:\release_notes_IX\ReleaseNotes\img\rn_pzreport.png
+Scanning for release_notes_IX\ReleaseNotes\img\rn_coloring.png
+Found source directory file C:\release_notes_IX\ReleaseNotes\img\rn_coloring.png
+Scanning for release_notes_IX\ReleaseNotes\img\rn_waterweakening.png
+Found source directory file C:\release_notes_IX\ReleaseNotes\img\rn_waterweakening.png
+Scanning for release_notes_IX\ReleaseNotes\img\rn_testwellaction.png
+Found source directory file C:\release_notes_IX\ReleaseNotes\img\rn_testwellaction.png
+     [copy] Copying 4 files to c:\release_notes_IX\out\slb_rn_html5
+     [copy] Copying C:\release_notes_IX\ReleaseNotes\img\rn_pzreport.png to c:\release_notes_IX\out\slb_rn_html5\ReleaseNotes\img\rn_pzreport.png
+     [copy] Copying C:\release_notes_IX\ReleaseNotes\img\rn_coloring.png to c:\release_notes_IX\out\slb_rn_html5\ReleaseNotes\img\rn_coloring.png
+     [copy] Copying C:\release_notes_IX\ReleaseNotes\img\rn_waterweakening.png to c:\release_notes_IX\out\slb_rn_html5\ReleaseNotes\img\rn_waterweakening.png
+     [copy] Copying C:\release_notes_IX\ReleaseNotes\img\rn_testwellaction.png to c:\release_notes_IX\out\slb_rn_html5\ReleaseNotes\img\rn_testwellaction.png
+
+copy-html:
+
+copy-flag-check:
+Overriding previous definition of property "user.input.dir"
+Overriding previous definition of property "transtypes"
+Overriding previous definition of property "parser.md"
+Overriding previous definition of property "plugin.org.dita.specialization.dita11.dir"
+Overriding previous definition of property "crawl"
+Overriding previous definition of property "plugin.com.slb.html5-rn.dir"
+Overriding previous definition of property "parser.hdita"
+Overriding previous definition of property "cli.color"
+Overriding previous definition of property "user.input.file"
+Overriding previous definition of property "plugin.org.dita.pdf2.dir"
+Overriding previous definition of property "print_transtypes"
+Overriding previous definition of property "onlytopicinmap"
+Overriding previous definition of property "supported_resource_extensions"
+Overriding previous definition of property "plugin.org.dita.xhtml.dir"
+Overriding previous definition of property "plugin.org.dita.index.dir"
+Overriding previous definition of property "plugin.com.michael.pdf2.dir"
+Overriding previous definition of property "relflagimagelist"
+Overriding previous definition of property "supported_html_extensions"
+Overriding previous definition of property "plugin.order"
+Overriding previous definition of property "otrelease"
+Overriding previous definition of property "supported_image_extensions"
+Overriding previous definition of property "InputMapDir"
+Overriding previous definition of property "org.dita.pdf2.i18n.enabled"
+Overriding previous definition of property "plugin.com.michael.strings.dir"
+Overriding previous definition of property "user.input.dir.uri"
+Overriding previous definition of property "plugin.org.dita.html5.dir"
+Overriding previous definition of property "generatecopyouter"
+Overriding previous definition of property "default.cascade"
+Overriding previous definition of property "plugin.org.oasis-open.xdita.v0_2_2.dir"
+Overriding previous definition of property "plugin.org.dita.eclipsehelp.dir"
+Overriding previous definition of property "outputdir"
+Overriding previous definition of property "plugin.org.dita.htmlhelp.dir"
+Overriding previous definition of property "temp-file-name-scheme"
+Overriding previous definition of property "plugin.org.dita.base.dir"
+Overriding previous definition of property "plugindirs"
+Overriding previous definition of property "parser.mdita"
+Overriding previous definition of property "user.input.file.listfile"
+Overriding previous definition of property "outercontrol"
+Overriding previous definition of property "plugin.ignores"
+Overriding previous definition of property "relflagimagefile"
+Overriding previous definition of property "user.input.file.uri"
+Overriding previous definition of property "plugin.com.slb.pdf-rn.dir"
+Overriding previous definition of property "registry"
+Overriding previous definition of property "plugin.org.dita.pdf2.axf.dir"
+Overriding previous definition of property "plugin.org.dita.normalize.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v1_2.dir"
+Overriding previous definition of property "InputMapDir.uri"
+Overriding previous definition of property "plugin.org.dita.pdf2.fop.dir"
+Overriding previous definition of property "plugin.org.lwdita.dir"
+Overriding previous definition of property "plugin.org.dita.pdf2.xep.dir"
+Overriding previous definition of property "tempdirToinputmapdir.relative.value"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v2_0.dir"
+Overriding previous definition of property "otversion"
+Overriding previous definition of property "plugin.org.oasis-open.dita.v1_3.dir"
+Overriding previous definition of property "plugin.com.michael.html5.dir"
+Overriding previous definition of property "parser.markdown"
+Overriding previous definition of property "uplevels"
+
+copy-flag:
+Skipped because property 'preprocess.copy-flag.skip' set.
+
+copy-files:
+
+preprocess:
+
+html5.topic.init:
+Scanning for release_notes_IX\ReleaseNotes.ditamap
+Found temporary directory file c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes.ditamap
+[pathconvert] Set property html5.map.url = file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap
+
+html5.image-metadata:
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\multiscale_1763927_2.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\documentation.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\minnetworkperiod_1775071.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\solids_1746326.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\testwellaction_1763203.xml
+[image-metadata] Found file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_testwellaction.png
+[image-metadata] Reading file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_testwellaction.png
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\installer.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\diffusion_1780781.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\licensing.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\behavioralchanges.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\reporting_overview.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\releaseinfo.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\1741505_outputwellconnection.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\waterweakening_1750990.xml
+[image-metadata] Found file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_waterweakening.png
+[image-metadata] Reading file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_waterweakening.png
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\mpi_1744034.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\presetreporting_1703986.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\platform.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\1745834_conductiveheat.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\pzreport_1788156.xml
+[image-metadata] Found file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_pzreport.png
+[image-metadata] Reading file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_pzreport.png
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\gpuimprovements.xml
+[image-metadata] Found file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_coloring.png
+[image-metadata] Reading file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/img/rn_coloring.png
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\ixf2csv_1719422.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\whatsnew.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\obsh_1725119.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\cgl_1780029.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\feature.xml
+[image-metadata] Processing c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\thirdparty.xml
+[image-metadata] ImageMetadataModule processing took 559 ms
+
+html5.topics.common:
+Skipped because property 'old.transform' not set.
+
+html5.topics.common.inner:
+     [xslt] Transforming into c:\release_notes_IX\out\slb_rn_html5
+     [xslt] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.html5/xsl/dita2html5.xsl
+     [xslt] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.html5/xsl/dita2html5.xsl
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'multiscale_1763927_2.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/multiscale_1763927_2.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/multiscale_1763927_2.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'documentation.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/documentation.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/documentation.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'minnetworkperiod_1775071.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/minnetworkperiod_1775071.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/minnetworkperiod_1775071.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'solids_1746326.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/solids_1746326.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/solids_1746326.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'testwellaction_1763203.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/testwellaction_1763203.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/testwellaction_1763203.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'installer.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/installer.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/installer.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'diffusion_1780781.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/diffusion_1780781.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/diffusion_1780781.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'licensing.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/licensing.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/licensing.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'behavioralchanges.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/behavioralchanges.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/behavioralchanges.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'reporting_overview.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/reporting_overview.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/reporting_overview.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'releaseinfo.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/releaseinfo.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/releaseinfo.html
+     [xslt] file:/C:/release_notes_IX/ReleaseNotes/releaseinfo.xml:9:19: [DOTX040I][INFO]: Draft comment area found. To remove this message and hide the comments, build your content without using the DRAFT parameter.
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to '1741505_outputwellconnection.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1741505_outputwellconnection.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/1741505_outputwellconnection.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'waterweakening_1750990.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/waterweakening_1750990.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/waterweakening_1750990.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'mpi_1744034.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/mpi_1744034.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/mpi_1744034.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'presetreporting_1703986.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/presetreporting_1703986.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/presetreporting_1703986.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'platform.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/platform.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/platform.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to '1745834_conductiveheat.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/1745834_conductiveheat.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/1745834_conductiveheat.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'pzreport_1788156.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/pzreport_1788156.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/pzreport_1788156.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'gpuimprovements.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/gpuimprovements.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/gpuimprovements.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'ixf2csv_1719422.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/ixf2csv_1719422.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/ixf2csv_1719422.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'whatsnew.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/whatsnew.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/whatsnew.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'obsh_1725119.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/obsh_1725119.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/obsh_1725119.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'cgl_1780029.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes\2022_1'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/2022_1/cgl_1780029.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/2022_1/cgl_1780029.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'feature.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/feature.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/feature.html
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter input.map.url to 'file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Set parameter defaultLanguage to 'en'
+     [xslt] Set parameter BASEDIR to 'C:\Repos\michael-ditaot\dita-ot-3.7\bin\..'
+     [xslt] Set parameter DRAFT to 'yes'
+     [xslt] Set parameter nav-toc to 'none'
+     [xslt] Set parameter OUTPUTDIR to 'c:\release_notes_IX\out\slb_rn_html5'
+     [xslt] Set parameter include.rellinks to ''
+     [xslt] Set parameter FILENAME to 'thirdparty.xml'
+     [xslt] Set parameter FILEDIR to 'release_notes_IX\ReleaseNotes'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes/thirdparty.xml to file:/c:/release_notes_IX/out/slb_rn_html5/ReleaseNotes/thirdparty.html
+     [xslt] XsltModule processing took 2,461 ms
+
+html5.topic:
+
+html5.map.init:
+
+html5.map.toc:
+     [xslt] Transforming into c:\release_notes_IX\out\slb_rn_html5
+     [xslt] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.html5/xsl/map2html5-cover.xsl
+     [xslt] Loading stylesheet file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.html5/xsl/map2html5-cover.xsl
+     [xslt] Set parameter OUTEXT to '.html'
+     [xslt] Set parameter CSSPATH to 'css/'
+     [xslt] Processing file:/c:/release_notes_IX/temphtml5/release_notes_IX/ReleaseNotes.ditamap to file:/c:/release_notes_IX/out/slb_rn_html5/index.html
+     [xslt] XsltModule processing took 1,020 ms
+
+html5.map:
+
+html5.css:
+[available] Unable to find file ${dita.plugin.com.slb.html5-rn}\css\slb_rn_ltr.css
+    [mkdir] Skipping c:\release_notes_IX\out\slb_rn_html5\css because it already exists.
+     [copy] commonltr.css added as commonltr.css doesn't exist.
+     [copy] commonrtl.css added as commonrtl.css doesn't exist.
+     [copy] No sources found.
+     [copy] Copying 2 files to c:\release_notes_IX\out\slb_rn_html5\css
+     [copy] Copying C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\css\commonltr.css to c:\release_notes_IX\out\slb_rn_html5\css\commonltr.css
+     [copy] Copying C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\css\commonrtl.css to c:\release_notes_IX\out\slb_rn_html5\css\commonrtl.css
+Project base dir set to: C:\Repos\michael-ditaot\dita-ot-3.7
+  [antcall] calling target(s) [html5.copy-css-user] in build file C:\Repos\michael-ditaot\dita-ot-3.7\build.xml
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/build.xml
+Project base dir set to: C:\Repos\michael-ditaot\dita-ot-3.7
+Override ignored for property "ant.file.DOST.dir"
+Override ignored for property "dita.dir"
+Override ignored for property "dita.dir"
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\local.properties
+ [property] Unable to find property file: C:\Repos\michael-ditaot\dita-ot-3.7\local.properties
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build.xml
+Override ignored for property "dita.plugin.com.slb.pdf-rn.dir"
+Override ignored for property "dita.plugin.org.dita.htmlhelp.dir"
+Override ignored for property "dita.plugin.org.dita.base.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "dita.plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "dita.plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "dita.plugin.org.dita.normalize.dir"
+Override ignored for property "dita.plugin.com.michael.pdf2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "dita.plugin.com.michael.html5.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "dita.plugin.org.dita.html5.dir"
+Override ignored for property "dita.plugin.org.dita.index.dir"
+Override ignored for property "dita.plugin.org.dita.xhtml.dir"
+Override ignored for property "dita.plugin.org.lwdita.dir"
+Override ignored for property "dita.plugin.com.michael.strings.dir"
+Override ignored for property "dita.plugin.org.dita.pdf2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "dita.plugin.com.slb.html5-rn.dir"
+Override ignored for property "dita.plugin.org.oasis-open.dita.v2_0.dir"
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_init.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_init.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_init.xml
+Override ignored for property "otrelease"
+Override ignored for property "otversion"
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\config\org.dita.dost.platform\plugin.properties
+Override ignored for property "plugin.org.dita.eclipsehelp.dir"
+Override ignored for property "plugin.org.oasis-open.xdita.v0_2_2.dir"
+Override ignored for property "plugin.org.dita.htmlhelp.dir"
+Override ignored for property "transtypes"
+Override ignored for property "plugin.org.dita.base.dir"
+Override ignored for property "parser.md"
+Override ignored for property "parser.mdita"
+Override ignored for property "plugin.org.dita.specialization.dita11.dir"
+Override ignored for property "plugin.com.slb.html5-rn.dir"
+Override ignored for property "parser.hdita"
+Override ignored for property "plugin.com.slb.pdf-rn.dir"
+Override ignored for property "plugin.org.dita.normalize.dir"
+Override ignored for property "plugin.org.dita.pdf2.axf.dir"
+Override ignored for property "plugin.org.dita.pdf2.dir"
+Override ignored for property "print_transtypes"
+Override ignored for property "plugin.org.oasis-open.dita.v1_2.dir"
+Override ignored for property "plugin.org.oasis-open.dita.techcomm.v2_0.dir"
+Override ignored for property "plugin.org.dita.xhtml.dir"
+Override ignored for property "supported_resource_extensions"
+Override ignored for property "plugin.org.dita.pdf2.fop.dir"
+Override ignored for property "plugin.org.dita.index.dir"
+Override ignored for property "plugin.org.lwdita.dir"
+Override ignored for property "plugin.org.dita.pdf2.xep.dir"
+Override ignored for property "plugin.com.michael.pdf2.dir"
+Override ignored for property "supported_html_extensions"
+Override ignored for property "supported_image_extensions"
+Override ignored for property "plugin.org.oasis-open.dita.v2_0.dir"
+Override ignored for property "plugin.org.oasis-open.dita.v1_3.dir"
+Override ignored for property "plugin.com.michael.html5.dir"
+Override ignored for property "plugin.com.michael.strings.dir"
+Override ignored for property "parser.markdown"
+Override ignored for property "plugin.org.dita.html5.dir"
+ [property] Loading C:\Repos\michael-ditaot\dita-ot-3.7\config\configuration.properties
+Override ignored for property "default.cascade"
+Override ignored for property "registry"
+Override ignored for property "plugin.ignores"
+Override ignored for property "plugin.order"
+Override ignored for property "temp-file-name-scheme"
+Override ignored for property "plugindirs"
+Override ignored for property "org.dita.pdf2.i18n.enabled"
+Override ignored for property "cli.color"
+ [macrodef] creating macro  job-helper
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_preprocess.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess2.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build_preprocess2.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.base/build_preprocess2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.html5\build_dita2michael-html5.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.html5\build_dita2michael-html5.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.michael.html5/build_dita2michael-html5.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.pdf2\build_dita2michael-pdf2.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.michael.pdf2\build_dita2michael-pdf2.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.michael.pdf2/build_dita2michael-pdf2.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\build_dita2html5.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.html5\build_dita2html5.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.html5/build_dita2html5.xml
+ [macrodef] creating macro  html5.topics
+ [macrodef] creating macro  html5.map
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.slb.html5-rn\build_dita2slb-html5-rn.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\com.slb.html5-rn\build_dita2slb-html5-rn.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/com.slb.html5-rn/build_dita2slb-html5-rn.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_general.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_general.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.xhtml/build_general.xml
+ [macrodef] creating macro  topics.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_dita2xhtml.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.xhtml\build_dita2xhtml.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.xhtml/build_dita2xhtml.xml
+ [macrodef] creating macro  map.html
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.eclipsehelp\build_dita2eclipsehelp.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.htmlhelp\build_dita2htmlhelp.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.index\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.index\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.index/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.axf\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.axf\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.axf/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.fop\build_fop.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.fop\build_fop.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.fop/build_fop.xml
+Override ignored for property "fop.home"
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.xep\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.pdf2.xep\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.pdf2.xep/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.normalize\build.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.normalize\build.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.dita.normalize/build.xml
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-markdown.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-markdown.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.lwdita/build-markdown.xml
+ [macrodef] creating macro  markdown.map
+ [macrodef] creating macro  markdown.topics
+Overriding previous definition of reference to ant.projectHelper
+Importing file C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-html.xml from C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.dita.base\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile C:\Repos\michael-ditaot\dita-ot-3.7\plugins\org.lwdita\build-html.xml with URI = file:/C:/Repos/michael-ditaot/dita-ot-3.7/plugins/org.lwdita/build-html.xml
+Overriding previous definition of reference to ant.projectHelper
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `html5.copy-css-user' is [html5.copy-css-user]
+Complete build sequence is [html5.copy-css-user, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, dita2michael-html5.michael-html5.init, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, michael-html5.init, michael-copy, html5.init, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map, html5.css, dita2html5, dita2michael-html5.dita2michael-html5, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita2michael-html5, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2custpdf.init, map2pdf2, topic2pdf2, dita2pdf2, DOST.dita2custpdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, slb-rn-html5.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2slb-html5-rn.slb-rn-html5.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2michael-pdf2.michael-pdf2.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, michael-pdf2.init, dita2michael-pdf2.dita2michael-pdf2, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, dita2michael-html5.michael-copy, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, DOST.dita2custpdf.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2custpdf, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2michael-pdf2, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita2slb-html5-rn, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2slb-html5-rn.dita2slb-html5-rn, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+  [antcall] Entering C:\Repos\michael-ditaot\dita-ot-3.7\build.xml...
+Build sequence for target(s) `html5.copy-css-user' is [html5.copy-css-user]
+Complete build sequence is [html5.copy-css-user, dita2pdf2.init, dita.index.eclipsehelp.init, ditaot-preprocess.mapref-check, conref, transform.topic2pdf.init, preview.topic.pdf.init, copyCoreArtwork, transform.fo2pdf.xep.test-use, transform.fo2pdf.xep.init, transform.fo2pdf.fop.test-use, transform.fo2pdf.fop.init, transform.fo2pdf.ah.test-use, transform.fo2pdf.ah.init, transform.topic2fo.init, org.dita.index.init, org.dita.index, transform.topic2fo.main, transform.topic2fo.i18n.filter, transform.topic2fo.i18n.no-filter, transform.topic2fo.i18n, transform.topic2fo, transform.fo2pdf.xep, transform.fo2pdf.fop, transform.fo2pdf.ah, transform.fo2pdf, transform.topic2pdf, dita.build.preview.topic.pdf, ditaot-preprocess.maplink-check, dita2michael-html5.michael-html5.init, markdown_github.init, init-properties, check-arg, log-arg, build-init, preprocess.init, ditaval-merge, gen-list, debug-filter, mapref-check, mapref, branch-filter, keyref, copy-to, conrefpush, profile-check, profile, topic-fragment, chunk-check, chunk, move-meta-entries, maplink-check, maplink, topicpull-check, topicpull, clean-map-check, clean-map, clean-preprocess, copy-image, copy-html, copy-flag-check, copy-flag, copy-files, preprocess, markdown.init, markdown.topics.common, markdown.topics.common.inner, markdown.topic, markdown.map.init, markdown.map.toc, markdown.map, dita2markdown, dita2normalize.dita2markdown_github, dita2normalize.markdown.topics.common, ditaot-init.check-arg, dita2dita, org.dita.pdf2.xep.transform.fo2pdf.xep, dita2htmlhelp.init, ditaot-preprocess.profile-check, dita2html5.html5.map.toc, html5.map.init, html5.map.toc, dita2html5.html5.map, ditaot-preprocess2.map-conrefpush, dita2eclipsehelp.dita.map.eclipse.plugin.init, dita.map.eclipse.plugin.init, dita.map.eclipse.plugin, ditaot-preprocess.debug-filter, dita.map.eclipse.fragment.move.files, michael-html5.init, michael-copy, html5.init, html5.topic.init, html5.image-metadata, html5.topics.common, html5.topics.common.inner, html5.topic, html5.map, html5.css, dita2html5, dita2michael-html5.dita2michael-html5, dita2normalize.dita.out.map.hdita.toc, xhtml.init, xhtml.image-metadata, htmlhelp.topics, ditaot-init.build-init, dita2xhtml.copy-css-user, ditaot-preprocess.copy-to, ditaot-preprocess.keyref, ditaot-preprocess.copy-flag-check, ditaot-preprocess2.topic-keyref, transform.topic2fo.index.init, dita.build.transform.topic2fo.index, ditaot-preprocess2.topic-maplink, preprocess2.init, map-reader, map-mapref, map-branch-filter, map-keyref, map-conrefpush, map-conref, map-profile-check, map-profile, preprocess2.maps, topic-reader, topic-branch-filter, topic-keyref, topic-copy-to, topic-conrefpush, topic-conref, topic-profile-check, topic-profile, preprocess2.topic-fragment, topic-chunk, topic-move-meta-entries, topic-maplink, topic-topicpull, preprocess2.topics, map-clean-map, copy-image2, copy-files2, preprocess2, build_generaltargets.output-css-warn-message, ditaot-preprocess2.topic-reader, ditaot-preprocess.chunk, dita.topics.html.common, dita2michael-html5, dita.build.transform.topic2fo.i18n.filter, org.dita.pdf2.axf.transform.fo2pdf.ah.nooption, ditaot-preprocess2.topic-branch-filter, build_generaltargets.xhtml.image-metadata, dita2normalize.dita.topics.hdita.common, dita.map.xhtml.init, dita.map.xhtml.toc, dita.map.xhtml, dita.map.eclipse.toc, dita.build.transform.topic2fo.i18n, org.dita.pdf2.axf.transform.fo2pdf.ah, org.dita.pdf2.xep.transform.fo2pdf.xep.test-use, dita2custpdf.init, map2pdf2, topic2pdf2, dita2pdf2, DOST.dita2custpdf, ditaot-preprocess2.preprocess2.topic-fragment, markdown_gitbook.init, slb-rn-html5.init, dita2eclipsehelp.dita.map.eclipse.fragment.language.init, ditaot-preprocess.preprocess.init, copy-revflag, ditaot-preprocess.clean-map, dita2xhtml.init, dita.build.dita2pdf2, hdita.init, ditaot-preprocess.clean-preprocess, dita2xhtml.dita.out.map.xhtml.toc, org.dita.pdf2.xep.transform.fo2pdf.xep.init, ditaot-preprocess2.preprocess2, org.dita.pdf2.axf.transform.fo2pdf.ah.test-use, ditaot-preprocess.maplink, ditaot-init.init-properties, ditaot-preprocess.preprocess, use-init.envhhcdir, use-init.hhcdir, htmlhelp.copy-image, copy-css, dita2htmlhelp.dita2htmlhelp, publish.map.pdf.init, dita2xhtml.dita.map.xhtml, copy-plugin-files, ditaot-preprocess2.map-clean-map, dita.build.dita2pdf, ditaot-preprocess.conrefpush, dita.map.eclipse.init, dita2eclipsehelp.dita.map.eclipse.fragment.error, ditaot-preprocess.branch-filter, dita.map.hdita.init, dita2slb-html5-rn.slb-rn-html5.init, dita2eclipsehelp.copy-plugin-files, dita.build.transform.fo2pdf, dita2eclipsehelp.dita.out.map.eclipse.plugin, build.eclipse.jar, org.dita.pdf2.fop.transform.fo2pdf.fop, dita.build.transform.topic2pdf.init, ditaot-preprocess2.map-mapref, dita.map.eclipse.fragment.language.init, ditaot-preprocess.gen-list, build_generaltargets.dita.topics.html.common, dita2htmlhelp.use-init.hhcdir, dita.build.publish.map.pdf, dita2normalize.hdita.init, DOST.init, DOST.help, transform.fo2pdf.ah.nooption, dita.inner.topics.hdita.common, dita2htmlhelp.dita.htmlhelp.convertlang, ditaot-preprocess2.topic-topicpull, dita2eclipsehelp.dita.out.map.eclipse.toc, dita2normalize.markdown.init, dita2html5.html5.topic, ditaot-preprocess.chunk-check, dita2normalize.markdown_gitbook.init, dita2michael-pdf2.michael-pdf2.init, dita2htmlhelp.org.dita.index, build_generaltargets.dita.inner.topics.html.common, preprocess2-topic, ditaot-preprocess2.map-profile-check, dita.out.map.eclipse.plugin.properties, dita2eclipsehelp.dita.map.eclipse.index, ditaot-preprocess.profile, dita2normalize.markdown.topics.common.inner, michael-pdf2.init, dita2michael-pdf2.dita2michael-pdf2, dita.map.eclipse.fragment.language.country.init, dita2eclipsehelp.dita.map.eclipse.plugin.properties, ditaot-preprocess.copy-files, dita.inner.topics.html.common, build_generaltargets.xhtml.topics, org.dita.pdf2.fop.transform.fo2pdf.fop.test-use, dita2htmlhelp.dita2htmlhelp.init, dita.map.htmlhelp.init, ditaot-preprocess2.map-conref, dita.map.eclipse.index, dita.map.eclipse.plugin.properties, dita.map.eclipse.manifest.file, dita.out.map.eclipse.manifest.file, dita.out.map.eclipse.toc, dita.out.map.eclipse.index, dita.out.map.eclipse.plugin, dita.out.map.eclipse.fragment.move.files, dita.map.eclipse.genetrate.fragment, ditaot-preprocess.topicpull-check, init, help, ditaot-preprocess2.preprocess2-topic, dita.map.eclipse.fragment.error, ditaot-preprocess2.map-reader, ditaot-init.log-arg, dita2xhtml.copy-css, dita2normalize.markdown.map.toc, ditaot-preprocess.move-meta-entries, dita2markdown_gitbook, dita.build.transform.topic2fo, preview.topic.pdf, transform.topic2fo.index, dita2eclipsehelp.dita.map.eclipse.init, xhtml.topics, dita2xhtml.dita2xhtml, ditaot-preprocess2.topic-move-meta-entries, dita2normalize.dita.inner.topics.hdita.common, dita2normalize.markdown_github.init, dita2eclipsehelp.dita.map.eclipse.toc, dita2normalize.dita2dita, ditaot-preprocess.copy-html, dita2normalize.markdown.topic, dita2html5.html5.topic.init, dita.topics.hdita.common, dita.map.hdita.toc, dita.out.map.hdita.toc, dita2normalize.dita2hdita, dita.map.eclipse.generate.plugin, clean-temp, dita2xhtml.dita2xhtml.init, ditaot-preprocess.copy-image, dita2michael-html5.michael-copy, ditaot-preprocess.ditaval-merge, dita.map.htmlhelp.hhp, dita.map.htmlhelp.hhc, dita.map.htmlhelp.hhk, dita.htmlhelp.convertlang, compile.HTML.Help, dita.map.htmlhelp, dita2html5.html5.init, build_generaltargets.xhtml.init, dita2html5.html5.topics.common.inner, dita2xhtml.dita.map.xhtml.toc, org.dita.pdf2.fop.transform.fo2pdf.fop.init, DOST.dita2custpdf.init, dita2eclipsehelp.dita.out.map.eclipse.index, ditaot-preprocess2.preprocess2.maps, dita2eclipsehelp.build.eclipse.jar, ditaot-preprocess2.map-branch-filter, dita2normalize.markdown.map.init, dita2htmlhelp.compile.HTML.Help, dita.build.transform.topic2fo.index.init, dita2htmlhelp.dita.map.htmlhelp, dita2html5.html5.map.init, ditaot-preprocess.mapref, dita2eclipsehelp.dita.out.map.eclipse.manifest.file, dita.build.transform.topic2fo.main, ditaot-preprocess.clean-map-check, dita2normalize.dita.map.hdita.toc, dita2eclipsehelp.dita.map.eclipse.genetrate.fragment, dita2eclipsehelp.dita.map.eclipse.fragment.language.country.init, dita.build.publish.map.pdf.init, ditaot-preprocess2.copy-image2, ditaot-preprocess.clean-temp, dita.build.dita2pdf2.init, dita2normalize.dita2markdown_gitbook, dita2custpdf, dita2eclipsehelp.dita.map.eclipse.manifest.file, dita2eclipsehelp.dita.out.map.eclipse.fragment.move.files, dita.eclipsehelp.init, dita2htmlhelp.org.dita.index.init, dita2hdita, dita2normalize.markdown.map, dita.build.transform.topic2fo.init, dita.out.map.xhtml.toc, ditaot-preprocess.copy-flag, dita2htmlhelp.htmlhelp.topics, dita2xhtml, dita2eclipsehelp.dita.index.eclipsehelp.init, org.dita.pdf2.axf.transform.fo2pdf.ah.hasoption, dita2eclipsehelp.dita.map.eclipse.generate.plugin, dita.build.preview.topic.pdf.init, ditaot-preprocess2.map-keyref, dita2htmlhelp.dita.map.htmlhelp.init, transform.fo2pdf.ah.hasoption, dita2michael-pdf2, dita2eclipsehelp.dita.map.eclipse.plugin, ditaot-preprocess2.copy-files2, dita2pdf, ditaot-preprocess.conref, ditaot-preprocess2.topic-conref, dita.build.transform.topic2fo.i18n.no-filter, dita.build.copyCoreArtwork, dita2normalize.dita2markdown, dita2xhtml.copy-revflag, dita.build.transform.topic2pdf, dita2markdown_github, ditaot-preprocess.topic-fragment, ditaot-preprocess2.topic-conrefpush, dita2slb-html5-rn, dita.map.eclipse, dita2eclipsehelp.dita2eclipsehelp, ditaot-preprocess2.preprocess2.topics, dita2html5.html5.css, dita2eclipsehelp, dita2eclipsehelp.dita.map.eclipse, dita.build.topic2pdf2, dita2eclipsehelp.dita.map.eclipse.fragment.move.files, dita2html5.html5.copy-css-user, dita2normalize.dita.map.hdita.init, dita2htmlhelp.dita.map.htmlhelp.hhp, ditaot-preprocess2.map-profile, ditaot-preprocess.topicpull, dita2htmlhelp.dita.map.htmlhelp.hhk, ditaot-preprocess2.topic-profile-check, output-css-warn-message, dita2htmlhelp.dita.map.htmlhelp.hhc, dita2htmlhelp.htmlhelp.copy-image, dita2htmlhelp.use-init.envhhcdir, dita2html5.html5.image-metadata, copy-css-user, dita2htmlhelp, dita2slb-html5-rn.dita2slb-html5-rn, dita2eclipsehelp.dita.out.map.eclipse.plugin.properties, dita.build.map2pdf2, dita2html5.html5.topics.common, ditaot-preprocess2.topic-copy-to, dita2html5.dita2html5, org.dita.pdf2.axf.transform.fo2pdf.ah.init, ditaot-preprocess2.topic-chunk, dita2eclipsehelp.dita.eclipsehelp.init, ditaot-preprocess2.preprocess2.init, publish.map.pdf, dita2xhtml.dita.map.xhtml.init, , ditaot-preprocess2.topic-profile]
+
+html5.copy-css-user:
+Skipped because property 'user.copycss.yes' not set.
+  [antcall] Exiting C:\Repos\michael-ditaot\dita-ot-3.7\build.xml.
+
+dita2html5:
+
+dita2slb-html5-rn:
+
+clean-temp:
+   [delete] Deleting c:\release_notes_IX\temphtml5\.job.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes.ditamap
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\1741505_outputwellconnection.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\1745834_conductiveheat.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\cgl_1780029.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\diffusion_1780781.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\gpuimprovements.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\ixf2csv_1719422.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\minnetworkperiod_1775071.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\mpi_1744034.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\multiscale_1763927_2.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\obsh_1725119.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\presetreporting_1703986.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\pzreport_1788156.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\reporting_overview.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\solids_1746326.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\testwellaction_1763203.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1\waterweakening_1750990.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\behavioralchanges.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\documentation.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\feature.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\installer.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\licensing.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\platform.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\releaseinfo.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\thirdparty.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\whatsnew.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\relflagimage.list
+   [delete] Deleting c:\release_notes_IX\temphtml5\subject_scheme.dictionary
+   [delete] Deleting c:\release_notes_IX\temphtml5\subrelation.xml
+   [delete] Deleting c:\release_notes_IX\temphtml5\usr.input.file.list
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes\2022_1
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX\ReleaseNotes
+   [delete] Deleting c:\release_notes_IX\temphtml5\release_notes_IX
+   [delete] Deleting c:\release_notes_IX\temphtml5
+  [antcall] Exiting C:\Repos\michael-ditaot\dita-ot-3.7\build.xml.

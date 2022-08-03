@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.slb.html5-rn"> <!-- plugin name, same as the folder name-->
+    <require plugin="org.dita.html5"/> <!-- whatever this is based on-->
+        <transtype name="slb-html5-rn" extends="html5" desc="SLB HTML5 release notes"/> <!-- can be as meaningful as required, depending on how many pubs you need. Camel case, hyphens, etc all OK. extends whichever transtype ouput by the required plugin. desc is a descriptve name of the ouput-->
+        <feature extension="ant.import" file="build_dita2slb-html5-rn.xml"/> <!-- plugs the new plugin into the toolkit, what are the other extension points for? file is the build file, name should mention the transtype. This file name is the build filename-->
+        
+<!-- above is the minimum needed to create a plugin-->
+</plugin>
